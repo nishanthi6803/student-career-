@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section row align-items-center">
+    <div class="col-lg-6">
+        <h1 class="display-3 fw-bold mb-4">Empowering Your <span class="text-info">Future</span> with AI</h1>
+        <p class="lead mb-5">Our AI-Powered Student Intelligence System analyzes your skills, performance, and
+            personality to predict the perfect career path for you.</p>
+        <div class="d-flex gap-3">
+            <a href="{{ url_for('register') }}" class="btn btn-ai btn-lg">Get Started</a>
+            <a href="#features" class="btn btn-outline-light btn-lg rounded-pill">Learn More</a>
+        </div>
+    </div>
+    <div class="col-lg-6 text-center animate-float">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/career-choice-illustration-download-in-svg-png-gif-file-formats--choosing-decision-options-way-opportunity-pack-human-resources-illustrations-7164746.png"
+            alt="Hero AI" class="img-fluid" style="max-height: 450px;">
+    </div>
+</div>
+
+<div id="features" class="row py-5 mt-5">
+    <div class="col-12 text-center mb-5">
+        <h2 class="fw-bold">Intelligent Features</h2>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="glass-card text-center h-100">
+            <i class="fas fa-chart-line fa-3x mb-3 text-info"></i>
+            <h3>Performance Analysis</h3>
+            <p>In-depth analysis of your CGPA and academic trends with visualization.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="glass-card text-center h-100">
+            <i class="fas fa-bullseye fa-3x mb-3 text-primary"></i>
+            <h3>Career Prediction</h3>
+            <p>Smart ML models predict the best career path based on your unique profile.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="glass-card text-center h-100">
+            <i class="fas fa-road fa-3x mb-3 text-secondary"></i>
+            <h3>Improvement Roadmap</h3>
+            <p>Get personalized suggestions, certifications, and skills to master your field.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="glass-card mb-4 text-center">
+            <div class="score-badge mb-2">
+                {% if profile %}
+                {{ profile.intelligence_score }}
+                {% else %}
+                --
+                {% endif %}
+            </div>
+            <p class="text-muted">Intelligence Score</p>
+        </div>
+
+        {% if profile %}
+        <div class="glass-card mb-4">
+            <h4 class="mb-3">Your Skills</h4>
+            <div class="mb-2">
+                <small>Coding</small>
+                <div class="progress">
+                    <div class="progress-bar" style="width: {{ profile.coding_skill * 10 }}%"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <small>Communication</small>
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width: {{ profile.communication_skill * 10 }}%"></div>
+                </div>
+            </div>
+            <div class="mb-2">
+                <small>Leadership</small>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: {{ profile.leadership_score * 10 }}%"></div>
+                </div>
+            </div>
+            <a href="{{ url_for('result') }}" class="btn btn-ai btn-sm w-100 mt-3">View Detailed Report</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-md-8">
+        <div class="glass-card">
+            <h3 class="mb-4"><i class="fas fa-user-edit me-2"></i>Career Profiling Form</h3>
+            <form action="{{ url_for('predict') }}" method="POST">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Full Name</label>
+                        <input type="text" name="name" class="form-control"
+                            value="{{ profile.name if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>CGPA (out of 4.0)</label>
+                        <input type="number" step="0.01" max="4.0" name="cgpa" class="form-control"
+                            value="{{ profile.cgpa if profile else '' }}" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Aptitude Score (1-100)</label>
+                        <input type="number" name="aptitude" class="form-control"
+                            value="{{ profile.aptitude_score if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Interest Domain</label>
+                        <select name="interest" class="form-control" required>
+                            <option value="AI/ML" {{ 'selected' if profile and profile.interest_area=='AI/ML' else ''
+                                }}>AI/ML</option>
+                            <option value="Data Science" {{ 'selected' if profile and
+                                profile.interest_area=='Data Science' else '' }}>Data Science</option>
+                            <option value="Web Development" {{ 'selected' if profile and
+                                profile.interest_area=='Web Development' else '' }}>Web Development</option>
+                            <option value="UI/UX Design" {{ 'selected' if profile and
+                                profile.interest_area=='UI/UX Design' else '' }}>UI/UX Design</option>
+                            <option value="Cyber Security" {{ 'selected' if profile and
+                                profile.interest_area=='Cyber Security' else '' }}>Cyber Security</option>
+                            <option value="Business Analyst" {{ 'selected' if profile and
+                                profile.interest_area=='Business Analyst' else '' }}>Business Analyst</option>
+                            <option value="Software Engineering" {{ 'selected' if profile and
+                                profile.interest_area=='Software Engineering' else '' }}>Software Engineering</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <p class="text-info fw-bold mb-2">Self-Assessment (Rate 1-10)</p>
+                    <div class="col-md-4 mb-3">
+                        <label>Coding Skill</label>
+                        <input type="number" min="1" max="10" name="coding" class="form-control"
+                            value="{{ profile.coding_skill if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Communication</label>
+                        <input type="number" min="1" max="10" name="communication" class="form-control"
+                            value="{{ profile.communication_skill if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Leadership</label>
+                        <input type="number" min="1" max="10" name="leadership" class="form-control"
+                            value="{{ profile.leadership_score if profile else '' }}" required>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-ai btn-lg px-5">Analyze & Predict Career</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

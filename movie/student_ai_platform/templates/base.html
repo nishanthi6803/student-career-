@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerAI | Intelligence Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #8a2be2;
+            --secondary: #00d2ff;
+            --bg-dark: #0a0a1a;
+            --sidebar-bg: #11112b;
+            --card-glass: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-light: #e0e0e0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            height: 100vh;
+            background: var(--sidebar-bg);
+            border-right: 1px solid var(--card-border);
+            position: fixed;
+            padding: 2rem 1rem;
+            z-index: 1000;
+        }
+
+        .sidebar-brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 3rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item {
+            margin-bottom: 0.5rem;
+            list-style: none;
+        }
+
+        .sidebar .nav-link {
+            color: #a0a0c0;
+            padding: 0.8rem 1.2rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .sidebar .nav-link i {
+            width: 24px;
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background: rgba(138, 43, 226, 0.15);
+            color: var(--secondary);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 280px;
+            width: calc(100% - 280px);
+            padding: 2rem 3rem;
+            min-height: 100vh;
+        }
+
+        .glass-card {
+            background: var(--card-glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            margin-bottom: 2rem;
+        }
+
+        .btn-ai {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            border: none;
+            color: white;
+            border-radius: 10px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .btn-ai:hover {
+            transform: translateY(-2px);
+            color: white;
+            box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
+        }
+
+        /* Form Controls */
+        .form-control,
+        .form-select {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-color: var(--primary);
+            box-shadow: none;
+        }
+
+        .badge-career {
+            background: rgba(0, 210, 255, 0.1);
+            color: var(--secondary);
+            border: 1px solid var(--secondary);
+        }
+
+        @media (max-width: 992px) {
+            .sidebar {
+                width: 80px;
+                padding: 2rem 0.5rem;
+            }
+
+            .sidebar-brand span {
+                display: none;
+            }
+
+            .nav-link span {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 80px;
+                width: calc(100% - 80px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a href="#" class="sidebar-brand">
+            <i class="fas fa-microchip me-2"></i><span>CareerAI</span>
+        </a>
+        <ul class="nav flex-column mt-4">
+            <li class="nav-item">
+                <a class="nav-link {{ 'active' if request.blueprint == 'student' and request.endpoint == 'student.dashboard' }}"
+                    href="{{ url_for('student.dashboard') }}">
+                    <i class="fas fa-th-large"></i><span>Dashboard</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ 'active' if request.endpoint == 'student.resume_analysis' }}"
+                    href="{{ url_for('student.resume_analysis') }}">
+                    <i class="fas fa-file-invoice"></i><span>Resume Analyzer</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ 'active' if request.endpoint == 'student.personality' }}"
+                    href="{{ url_for('student.personality') }}">
+                    <i class="fas fa-user-astronaut"></i><span>Personality</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ 'active' if request.endpoint == 'student.interview' }}"
+                    href="{{ url_for('student.interview') }}">
+                    <i class="fas fa-headset"></i><span>AI Interview</span>
+                </a>
+            </li>
+            {% if current_user.role == 'admin' %}
+            <li class="nav-item mt-4">
+                <p class="text-muted small px-3 mb-2">ADMIN</p>
+                <a class="nav-link {{ 'active' if request.blueprint == 'admin' }}"
+                    href="{{ url_for('admin.analytics') }}">
+                    <i class="fas fa-chart-pie"></i><span>Platform Analytics</span>
+                </a>
+            </li>
+            {% endif %}
+            <li class="nav-item mt-auto pt-5">
+                <a class="nav-link text-danger" href="{{ url_for('auth.logout') }}">
+                    <i class="fas fa-sign-out-alt"></i><span>Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header class="d-flex justify-content-between align-items-center mb-5">
+            <div>
+                <h2 class="fw-bold">{% block title %}Dashboard{% endblock %}</h2>
+                <p class="text-muted mb-0">Welcome back, {{ current_user.username }}</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="badge badge-career py-2 px-3 rounded-pill me-3">
+                    <i class="fas fa-shield-halved me-2"></i>{{ current_user.role | capitalize }}
+                </span>
+                <img src="https://ui-avatars.com/api/?name={{ current_user.username }}&background=8a2be2&color=fff"
+                    class="rounded-circle" width="45">
+            </div>
+        </header>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show bg-dark text-white border-info mb-4"
+            role="alert">
+            {{ message }}
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

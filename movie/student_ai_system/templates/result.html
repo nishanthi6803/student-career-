@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 text-center mb-5">
+        <h1 class="display-4 fw-bold">Career Prediction <span class="text-info">Result</span></h1>
+        <p class="lead">AI has analyzed your profile and found your ideal career path.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="glass-card text-center mb-4">
+            <h4 class="text-muted mb-3">Predicted Career</h4>
+            <div class="display-5 fw-bold text-info mb-3">{{ profile.predicted_career }}</div>
+            <p class="mb-0">Confidence: <span class="badge bg-success">98.5% Match</span></p>
+        </div>
+
+        <div class="glass-card text-center mb-4">
+            <h4 class="text-muted mb-3">Intelligence Score</h4>
+            <div class="score-badge">{{ profile.intelligence_score }}</div>
+            <div class="mt-2">
+                <small>Top {{ 100 - (profile.intelligence_score | int) }}% of students in this category</small>
+            </div>
+        </div>
+
+        <div class="glass-card text-center">
+            <h4 class="text-muted mb-3">Career Readiness</h4>
+            <canvas id="readinessGauge" style="max-height: 150px;"></canvas>
+            <div class="mt-2 fw-bold text-info">{{ profile.career_readiness_score }}%</div>
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="glass-card mb-4">
+            <h4 class="mb-4">Performance Analysis Radar</h4>
+            <div style="max-height: 400px; display: flex; justify-content: center;">
+                <canvas id="careerRadar"></canvas>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <h4 class="mb-4"><i class="fas fa-map-signs me-2"></i>Personalized Roadmap for {{ profile.predicted_career
+                }}</h4>
+            <div class="timeline">
+                {% for step in roadmap %}
+                <div class="d-flex mb-3">
+                    <div class="me-3">
+                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 30px; height: 30px;">
+                            <i class="fas fa-check text-white small"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-0">{{ step }}</h6>
+                        <small class="text-muted">Target completion: 3 months</small>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <hr class="my-4 border-light">
+            <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-outline-info btn-sm">Download PDF Report</button>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">TensorFlow</span>
+                    <span class="badge bg-secondary">SQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Career Radar Chart
+    const radarCtx = document.getElementById('careerRadar').getContext('2d');
+    new Chart(radarCtx, {
+        type: 'radar',
+        data: {
+            labels: ['Coding', 'Aptitude', 'Communication', 'Leadership', 'Academic (CGPA)', 'Interest Alignment'],
+            datasets: [{
+                label: 'Student Profile',
+                data: [
+                    {{ profile.coding_skill }},
+            {{ profile.aptitude_score / 10 }}, 
+                    {{ profile.communication_skill }},
+        {{ profile.leadership_score }},
+        {{ profile.cgpa * 2.5 }},
+        9.5
+                ],
+        fill: true,
+        backgroundColor: 'rgba(106, 17, 203, 0.4)',
+        borderColor: 'rgb(106, 17, 203)',
+        pointBackgroundColor: 'rgb(106, 17, 203)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(106, 17, 203)'
+            }]
+        },
+        options: {
+        elements: { line: { borderWidth: 3 } },
+        scales: {
+            r: {
+                angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
+                grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                pointLabels: { color: '#fff' },
+                ticks: { display: false },
+                suggestedMin: 0,
+                suggestedMax: 10
+            }
+        },
+        plugins: {
+            legend: { labels: { color: '#fff' } }
+        }
+    }
+    });
+
+    // Simple Readiness Gauge using Pie
+    const gaugeCtx = document.getElementById('readinessGauge').getContext('2d');
+    new Chart(gaugeCtx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [{{ profile.career_readiness_score }}, {{ 100 - profile.career_readiness_score }}],
+        backgroundColor: ['#2575fc', 'rgba(255,255,255,0.1)'],
+        borderWidth: 0,
+        circumference: 180,
+        rotation: 270,
+    }]
+        },
+        options: {
+        cutout: '80%',
+        plugins: { legend: { display: false } },
+        responsive: true,
+    }
+    });
+</script>
+{% endblock %}

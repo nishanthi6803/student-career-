@@ -1,0 +1,1501 @@
+CGPA,AptitudeScore,CodingSkill,CommunicationSkill,LeadershipScore,InterestDomain,CareerPath
+3.06,97,3,8,5,AI/ML,AI Engineer
+3.93,51,1,3,6,Web Development,Web Developer
+3.6,55,3,7,1,Business Analyst,Business Analyst
+3.4,77,2,8,4,AI/ML,AI Engineer
+2.73,78,8,6,5,AI/ML,AI Engineer
+2.73,75,6,9,7,Software Engineering,Software Developer
+2.59,74,9,7,5,UI/UX Design,UI/UX Designer
+3.8,61,8,5,1,Web Development,Web Developer
+3.4,54,3,8,7,Cyber Security,Cyber Security Analyst
+3.56,83,5,2,8,AI/ML,AI Engineer
+2.53,97,7,7,7,Software Engineering,Software Developer
+3.95,86,5,4,4,Data Science,Data Scientist
+3.75,64,8,9,8,Data Science,Data Scientist
+2.82,93,5,1,5,Cyber Security,Cyber Security Analyst
+2.77,85,1,7,9,Business Analyst,Business Analyst
+2.78,64,5,6,5,Web Development,Web Developer
+2.96,92,4,8,1,Software Engineering,Software Developer
+3.29,97,6,5,9,UI/UX Design,UI/UX Designer
+3.15,72,3,1,5,Software Engineering,Software Developer
+2.94,55,5,1,6,Data Science,Data Scientist
+3.42,95,2,9,4,Data Science,Data Scientist
+2.71,99,6,6,6,Cyber Security,Cyber Security Analyst
+2.94,93,6,5,8,Business Analyst,Business Analyst
+3.05,92,5,1,3,Business Analyst,Business Analyst
+3.18,94,6,6,5,Cyber Security,Cyber Security Analyst
+3.68,70,7,6,2,Software Engineering,Software Developer
+2.8,72,5,3,2,Data Science,Data Scientist
+3.27,92,1,8,7,Software Engineering,Software Developer
+3.39,65,8,1,6,Software Engineering,Software Developer
+2.57,96,4,1,4,Web Development,Web Developer
+3.41,64,9,6,5,Data Science,Data Scientist
+2.76,74,6,1,1,Business Analyst,Business Analyst
+2.6,85,1,6,7,UI/UX Design,UI/UX Designer
+3.92,60,3,1,8,Software Engineering,Software Developer
+3.95,64,3,6,9,Data Science,Data Scientist
+3.71,53,4,3,8,Software Engineering,Software Developer
+2.96,70,6,8,5,Web Development,Web Developer
+2.65,62,7,6,3,AI/ML,AI Engineer
+3.53,71,4,1,9,Data Science,Data Scientist
+3.16,68,6,5,6,Cyber Security,Cyber Security Analyst
+2.68,83,1,8,5,AI/ML,AI Engineer
+3.24,63,8,3,3,Software Engineering,Software Developer
+2.55,53,7,6,6,Cyber Security,Cyber Security Analyst
+3.86,97,9,5,3,Cyber Security,Cyber Security Analyst
+2.89,95,3,6,6,Cyber Security,Cyber Security Analyst
+3.49,76,2,1,4,Data Science,Data Scientist
+2.97,78,1,7,2,Business Analyst,Business Analyst
+3.28,96,3,9,8,Software Engineering,Software Developer
+3.32,77,5,2,4,AI/ML,AI Engineer
+2.78,84,2,5,9,Web Development,Web Developer
+3.95,57,3,4,7,Business Analyst,Business Analyst
+3.66,65,4,6,2,Software Engineering,Software Developer
+3.91,91,7,6,4,Data Science,Data Scientist
+3.84,85,3,2,5,Cyber Security,Cyber Security Analyst
+3.4,79,9,2,3,Web Development,Web Developer
+3.88,67,8,4,9,Software Engineering,Software Developer
+2.63,51,4,1,5,AI/ML,AI Engineer
+2.79,98,1,9,2,Software Engineering,Software Developer
+2.57,62,1,7,3,Business Analyst,Business Analyst
+2.99,53,1,7,9,UI/UX Design,UI/UX Designer
+3.08,75,1,3,7,Business Analyst,Business Analyst
+2.91,74,8,3,2,Software Engineering,Software Developer
+3.74,79,3,1,9,Web Development,Web Developer
+3.04,60,6,3,4,Software Engineering,Software Developer
+2.92,56,3,3,9,Software Engineering,Software Developer
+3.31,80,5,4,2,Data Science,Data Scientist
+2.71,93,7,4,4,AI/ML,AI Engineer
+3.7,59,2,3,5,Web Development,Web Developer
+2.61,88,6,8,2,Software Engineering,Software Developer
+3.98,62,6,8,1,Cyber Security,Cyber Security Analyst
+3.66,80,3,1,7,AI/ML,AI Engineer
+2.8,56,6,7,1,Business Analyst,Business Analyst
+2.51,98,5,2,8,Web Development,Web Developer
+3.72,91,2,1,3,Business Analyst,Business Analyst
+3.56,91,9,3,6,Software Engineering,Software Developer
+3.59,85,8,4,7,Business Analyst,Business Analyst
+3.66,69,3,6,1,Business Analyst,Business Analyst
+2.61,53,8,5,6,Data Science,Data Scientist
+3.04,56,9,4,7,Business Analyst,Business Analyst
+2.67,50,3,8,6,Cyber Security,Cyber Security Analyst
+3.79,93,3,4,4,Cyber Security,Cyber Security Analyst
+3.43,94,2,2,1,AI/ML,AI Engineer
+3.0,91,8,3,9,Software Engineering,Software Developer
+2.6,96,1,6,4,UI/UX Design,UI/UX Designer
+2.97,62,8,8,7,Business Analyst,Business Analyst
+2.99,71,7,8,7,Business Analyst,Business Analyst
+3.59,70,7,9,2,Web Development,Web Developer
+3.46,71,3,7,1,Data Science,Data Scientist
+3.83,77,1,2,8,UI/UX Design,UI/UX Designer
+3.21,58,4,8,8,AI/ML,AI Engineer
+2.68,75,9,7,7,UI/UX Design,UI/UX Designer
+3.57,58,5,8,8,Business Analyst,Business Analyst
+3.64,64,1,3,3,Web Development,Web Developer
+3.34,59,5,7,2,Software Engineering,Software Developer
+3.66,73,8,9,7,Data Science,Data Scientist
+3.24,91,8,3,8,Software Engineering,Software Developer
+3.28,57,5,6,1,AI/ML,AI Engineer
+3.14,73,9,2,9,UI/UX Design,UI/UX Designer
+2.54,65,1,2,4,AI/ML,AI Engineer
+2.66,98,4,5,4,Business Analyst,Business Analyst
+2.55,75,3,5,3,AI/ML,AI Engineer
+3.45,76,2,7,6,Software Engineering,Software Developer
+2.97,86,8,2,1,Web Development,Web Developer
+3.26,53,7,7,6,AI/ML,AI Engineer
+3.86,99,9,5,2,Cyber Security,Cyber Security Analyst
+2.87,73,2,6,9,Web Development,Web Developer
+3.12,68,4,8,2,UI/UX Design,UI/UX Designer
+3.63,85,6,4,7,Data Science,Data Scientist
+2.84,88,3,7,1,Data Science,Data Scientist
+2.62,59,8,6,7,Business Analyst,Business Analyst
+2.93,74,3,2,5,Business Analyst,Business Analyst
+2.74,67,2,8,8,Cyber Security,Cyber Security Analyst
+3.89,68,3,9,4,UI/UX Design,UI/UX Designer
+3.71,85,6,5,7,Software Engineering,Software Developer
+3.45,59,2,4,6,Data Science,Data Scientist
+3.81,82,8,6,5,Data Science,Data Scientist
+3.71,99,1,8,4,Data Science,Data Scientist
+2.78,54,7,3,7,Software Engineering,Software Developer
+3.84,96,2,1,5,Data Science,Data Scientist
+3.31,98,6,4,5,AI/ML,AI Engineer
+3.71,84,2,4,1,UI/UX Design,UI/UX Designer
+3.84,93,2,1,2,Web Development,Web Developer
+2.98,83,8,9,5,Web Development,Web Developer
+2.67,82,2,3,3,Cyber Security,Cyber Security Analyst
+2.84,70,7,5,2,AI/ML,AI Engineer
+3.14,66,3,6,4,Data Science,Data Scientist
+3.73,71,8,8,4,Data Science,Data Scientist
+3.79,97,7,6,4,Business Analyst,Business Analyst
+2.51,86,8,3,4,Business Analyst,Business Analyst
+3.27,64,7,6,3,Cyber Security,Cyber Security Analyst
+3.13,84,6,1,7,Data Science,Data Scientist
+2.83,77,7,4,9,Cyber Security,Cyber Security Analyst
+2.68,56,5,6,5,AI/ML,AI Engineer
+3.01,81,7,7,4,Web Development,Web Developer
+3.91,60,1,3,2,Data Science,Data Scientist
+2.98,59,1,9,2,UI/UX Design,UI/UX Designer
+3.28,58,9,7,5,Software Engineering,Software Developer
+3.55,63,5,1,7,AI/ML,AI Engineer
+3.05,62,5,2,9,Data Science,Data Scientist
+3.96,74,3,1,7,Software Engineering,Software Developer
+3.94,51,5,9,5,UI/UX Design,UI/UX Designer
+2.88,84,3,9,6,Business Analyst,Business Analyst
+3.25,56,9,7,3,Cyber Security,Cyber Security Analyst
+2.95,70,9,3,5,Business Analyst,Business Analyst
+2.93,67,6,5,8,Web Development,Web Developer
+2.56,52,1,4,1,Business Analyst,Business Analyst
+3.41,91,7,7,1,Data Science,Data Scientist
+3.25,88,7,9,7,UI/UX Design,UI/UX Designer
+2.58,90,4,2,5,Business Analyst,Business Analyst
+2.92,98,8,8,5,Data Science,Data Scientist
+3.86,60,6,9,1,Web Development,Web Developer
+2.86,88,4,9,9,Software Engineering,Software Developer
+2.72,73,4,7,1,UI/UX Design,UI/UX Designer
+3.23,95,2,9,5,Business Analyst,Business Analyst
+3.98,68,2,9,9,Cyber Security,Cyber Security Analyst
+2.86,53,4,3,4,Cyber Security,Cyber Security Analyst
+3.51,75,5,4,8,UI/UX Design,UI/UX Designer
+3.64,87,8,2,6,Cyber Security,Cyber Security Analyst
+2.86,91,6,3,3,Business Analyst,Business Analyst
+3.59,81,4,5,4,Business Analyst,Business Analyst
+3.05,88,7,5,2,UI/UX Design,UI/UX Designer
+3.45,94,8,6,1,Business Analyst,Business Analyst
+3.45,95,2,7,8,Software Engineering,Software Developer
+3.3,85,7,7,1,Data Science,Data Scientist
+2.64,89,2,1,1,Web Development,Web Developer
+3.75,86,2,2,4,Software Engineering,Software Developer
+2.98,82,8,9,6,Software Engineering,Software Developer
+2.78,85,2,2,9,Cyber Security,Cyber Security Analyst
+2.56,52,9,6,1,Data Science,Data Scientist
+3.39,58,1,1,7,UI/UX Design,UI/UX Designer
+3.52,57,9,3,5,Cyber Security,Cyber Security Analyst
+2.52,82,1,2,8,Data Science,Data Scientist
+3.27,55,2,3,7,Business Analyst,Business Analyst
+2.84,90,6,5,4,UI/UX Design,UI/UX Designer
+3.47,88,6,6,4,UI/UX Design,UI/UX Designer
+2.76,53,1,9,6,Cyber Security,Cyber Security Analyst
+3.54,62,7,4,6,Business Analyst,Business Analyst
+3.08,98,8,7,9,Cyber Security,Cyber Security Analyst
+3.91,51,2,6,5,AI/ML,AI Engineer
+2.71,54,8,2,8,Data Science,Data Scientist
+3.01,93,9,8,5,AI/ML,AI Engineer
+2.67,76,6,7,2,Data Science,Data Scientist
+3.89,81,5,7,6,Web Development,Web Developer
+3.82,70,9,8,9,Software Engineering,Software Developer
+2.89,57,9,1,3,UI/UX Design,UI/UX Designer
+3.49,87,1,1,1,Cyber Security,Cyber Security Analyst
+3.73,57,3,8,1,Web Development,Web Developer
+3.33,99,9,4,3,Web Development,Web Developer
+3.29,52,2,5,5,UI/UX Design,UI/UX Designer
+2.86,93,4,8,3,UI/UX Design,UI/UX Designer
+2.64,52,4,5,9,Data Science,Data Scientist
+3.85,71,2,4,8,AI/ML,AI Engineer
+3.85,55,3,6,3,Business Analyst,Business Analyst
+3.45,51,3,5,9,Data Science,Data Scientist
+3.01,72,1,7,6,Business Analyst,Business Analyst
+3.02,93,6,7,7,Web Development,Web Developer
+3.59,51,8,4,4,Business Analyst,Business Analyst
+3.85,87,3,5,4,AI/ML,AI Engineer
+3.83,66,5,3,2,Data Science,Data Scientist
+3.67,84,1,4,5,UI/UX Design,UI/UX Designer
+3.46,83,7,4,8,AI/ML,AI Engineer
+2.63,72,1,3,7,Software Engineering,Software Developer
+2.74,79,9,5,7,AI/ML,AI Engineer
+3.85,57,8,5,6,Software Engineering,Software Developer
+3.41,71,7,7,3,Data Science,Data Scientist
+2.51,93,7,4,5,UI/UX Design,UI/UX Designer
+2.65,85,5,4,1,AI/ML,AI Engineer
+3.5,54,5,9,7,Software Engineering,Software Developer
+2.51,62,5,6,9,UI/UX Design,UI/UX Designer
+2.74,78,1,4,1,Cyber Security,Cyber Security Analyst
+3.32,80,8,2,2,Cyber Security,Cyber Security Analyst
+3.54,96,1,6,3,Cyber Security,Cyber Security Analyst
+3.48,65,4,2,3,Business Analyst,Business Analyst
+2.84,91,9,5,8,AI/ML,AI Engineer
+3.57,79,9,6,7,Data Science,Data Scientist
+2.86,65,5,4,6,Data Science,Data Scientist
+2.99,61,4,3,4,Business Analyst,Business Analyst
+3.62,66,3,7,9,Data Science,Data Scientist
+3.47,65,3,2,1,Software Engineering,Software Developer
+3.77,61,5,6,2,Cyber Security,Cyber Security Analyst
+3.49,57,1,4,4,AI/ML,AI Engineer
+3.35,69,5,6,3,Data Science,Data Scientist
+2.64,52,6,4,1,Data Science,Data Scientist
+3.05,65,7,4,5,Web Development,Web Developer
+2.9,79,9,4,7,Web Development,Web Developer
+2.87,94,3,9,2,Web Development,Web Developer
+3.96,72,2,7,5,AI/ML,AI Engineer
+3.09,77,3,3,6,Cyber Security,Cyber Security Analyst
+3.84,89,9,3,7,UI/UX Design,UI/UX Designer
+3.45,54,7,6,1,Cyber Security,Cyber Security Analyst
+3.69,69,9,6,7,Cyber Security,Cyber Security Analyst
+3.25,89,2,4,4,AI/ML,AI Engineer
+3.37,93,5,9,8,Software Engineering,Software Developer
+3.24,50,4,4,4,Software Engineering,Software Developer
+2.79,79,2,9,6,AI/ML,AI Engineer
+3.58,70,9,4,9,Web Development,Web Developer
+2.92,69,9,2,5,Data Science,Data Scientist
+2.54,55,6,2,4,Business Analyst,Business Analyst
+3.47,71,6,5,8,Business Analyst,Business Analyst
+2.77,67,8,4,9,UI/UX Design,UI/UX Designer
+3.91,57,6,7,4,Data Science,Data Scientist
+3.93,88,1,5,3,UI/UX Design,UI/UX Designer
+3.87,81,4,6,8,Web Development,Web Developer
+3.06,82,7,4,5,UI/UX Design,UI/UX Designer
+2.52,65,2,2,2,Data Science,Data Scientist
+3.89,61,9,9,9,Data Science,Data Scientist
+3.14,87,8,7,3,Business Analyst,Business Analyst
+3.95,83,8,4,2,Software Engineering,Software Developer
+3.95,63,7,3,1,Web Development,Web Developer
+3.78,85,4,3,8,AI/ML,AI Engineer
+2.94,82,2,9,3,UI/UX Design,UI/UX Designer
+3.08,72,3,5,7,Business Analyst,Business Analyst
+3.78,99,6,3,1,UI/UX Design,UI/UX Designer
+2.98,94,5,5,1,UI/UX Design,UI/UX Designer
+2.75,51,8,2,9,AI/ML,AI Engineer
+3.34,90,6,4,8,Web Development,Web Developer
+3.9,70,6,2,3,Data Science,Data Scientist
+3.54,51,1,2,6,Cyber Security,Cyber Security Analyst
+3.36,76,4,8,3,UI/UX Design,UI/UX Designer
+2.65,58,5,1,4,Cyber Security,Cyber Security Analyst
+3.42,50,3,7,1,Web Development,Web Developer
+3.99,60,9,5,5,Cyber Security,Cyber Security Analyst
+2.71,52,1,8,1,UI/UX Design,UI/UX Designer
+3.28,72,6,1,1,AI/ML,AI Engineer
+3.82,75,6,7,7,Cyber Security,Cyber Security Analyst
+3.61,53,5,5,6,Web Development,Web Developer
+3.55,67,5,4,2,Web Development,Web Developer
+3.55,55,5,7,2,Software Engineering,Software Developer
+3.04,84,6,2,7,Software Engineering,Software Developer
+2.94,71,8,1,1,AI/ML,AI Engineer
+3.71,92,2,1,2,Cyber Security,Cyber Security Analyst
+3.72,64,6,1,8,Cyber Security,Cyber Security Analyst
+3.8,71,1,5,6,Software Engineering,Software Developer
+3.87,86,4,7,2,Data Science,Data Scientist
+3.27,91,3,2,7,Business Analyst,Business Analyst
+3.25,61,9,8,4,Web Development,Web Developer
+3.7,96,3,4,2,Data Science,Data Scientist
+3.47,98,6,3,6,Web Development,Web Developer
+3.55,91,1,8,9,Data Science,Data Scientist
+3.69,87,6,2,9,Software Engineering,Software Developer
+3.84,67,4,3,8,Software Engineering,Software Developer
+3.01,94,8,3,3,Business Analyst,Business Analyst
+3.06,84,9,1,3,Data Science,Data Scientist
+2.64,79,4,6,2,Web Development,Web Developer
+3.37,73,6,2,5,Cyber Security,Cyber Security Analyst
+2.55,91,1,1,4,Web Development,Web Developer
+3.2,79,4,2,7,UI/UX Design,UI/UX Designer
+3.31,63,7,6,4,Software Engineering,Software Developer
+2.93,55,1,4,9,AI/ML,AI Engineer
+3.39,52,8,6,2,AI/ML,AI Engineer
+2.55,65,6,9,6,Software Engineering,Software Developer
+2.56,56,5,8,7,UI/UX Design,UI/UX Designer
+3.73,63,9,1,4,AI/ML,AI Engineer
+3.04,58,2,8,6,Software Engineering,Software Developer
+2.69,64,5,9,7,AI/ML,AI Engineer
+3.28,70,6,6,4,Software Engineering,Software Developer
+3.65,84,7,5,8,Business Analyst,Business Analyst
+2.82,51,5,6,9,Cyber Security,Cyber Security Analyst
+3.43,76,9,6,1,Cyber Security,Cyber Security Analyst
+2.63,51,1,9,7,Web Development,Web Developer
+2.58,84,7,4,9,UI/UX Design,UI/UX Designer
+3.3,67,7,2,5,Software Engineering,Software Developer
+3.31,63,4,9,2,Data Science,Data Scientist
+3.46,69,9,2,6,Web Development,Web Developer
+3.59,67,5,9,7,Web Development,Web Developer
+3.96,59,4,2,2,Software Engineering,Software Developer
+3.27,74,7,8,2,Software Engineering,Software Developer
+2.98,51,4,9,1,Web Development,Web Developer
+3.69,74,3,9,4,Web Development,Web Developer
+2.91,82,9,9,7,Cyber Security,Cyber Security Analyst
+3.16,85,8,2,9,Data Science,Data Scientist
+2.62,80,1,4,3,Web Development,Web Developer
+2.54,63,7,7,7,Cyber Security,Cyber Security Analyst
+3.94,50,9,2,7,Web Development,Web Developer
+3.75,95,8,1,7,AI/ML,AI Engineer
+3.54,65,8,3,2,Web Development,Web Developer
+3.11,95,6,4,6,Software Engineering,Software Developer
+2.76,52,4,8,2,UI/UX Design,UI/UX Designer
+2.73,84,8,6,6,UI/UX Design,UI/UX Designer
+2.88,90,3,2,3,Web Development,Web Developer
+3.32,55,9,9,2,Business Analyst,Business Analyst
+3.57,74,2,2,6,AI/ML,AI Engineer
+3.49,62,2,5,2,Data Science,Data Scientist
+2.92,83,7,4,5,Web Development,Web Developer
+3.93,57,4,7,2,Data Science,Data Scientist
+3.61,70,8,8,3,AI/ML,AI Engineer
+3.33,83,9,5,3,Web Development,Web Developer
+3.42,53,7,5,6,Business Analyst,Business Analyst
+3.13,74,5,2,6,Cyber Security,Cyber Security Analyst
+2.87,64,8,8,3,Business Analyst,Business Analyst
+3.03,53,4,2,3,Software Engineering,Software Developer
+3.64,94,2,6,1,Business Analyst,Business Analyst
+2.52,61,6,8,7,Cyber Security,Cyber Security Analyst
+2.67,81,9,6,8,Software Engineering,Software Developer
+2.57,81,1,4,2,Cyber Security,Cyber Security Analyst
+2.56,77,7,4,4,UI/UX Design,UI/UX Designer
+3.78,62,9,6,7,Cyber Security,Cyber Security Analyst
+3.56,80,9,4,8,Web Development,Web Developer
+3.21,63,3,8,1,Data Science,Data Scientist
+2.65,69,5,9,4,UI/UX Design,UI/UX Designer
+3.24,67,8,1,6,UI/UX Design,UI/UX Designer
+3.21,78,8,4,3,Data Science,Data Scientist
+2.76,55,4,4,5,UI/UX Design,UI/UX Designer
+3.15,81,1,2,9,Cyber Security,Cyber Security Analyst
+3.1,78,1,6,3,Business Analyst,Business Analyst
+3.42,92,4,3,5,AI/ML,AI Engineer
+3.45,51,6,7,8,Cyber Security,Cyber Security Analyst
+2.57,72,8,5,6,Software Engineering,Software Developer
+3.06,68,6,4,4,Software Engineering,Software Developer
+3.44,80,9,5,8,Business Analyst,Business Analyst
+3.25,54,9,8,3,Business Analyst,Business Analyst
+3.78,68,2,3,3,UI/UX Design,UI/UX Designer
+3.49,83,1,7,4,Web Development,Web Developer
+2.74,59,2,6,9,Web Development,Web Developer
+2.61,74,5,1,5,UI/UX Design,UI/UX Designer
+3.46,51,4,7,8,UI/UX Design,UI/UX Designer
+2.54,60,4,7,6,Data Science,Data Scientist
+3.38,99,9,1,3,Data Science,Data Scientist
+3.91,80,8,9,8,AI/ML,AI Engineer
+3.36,64,6,6,9,AI/ML,AI Engineer
+3.08,58,1,2,8,AI/ML,AI Engineer
+3.46,72,2,5,4,AI/ML,AI Engineer
+3.19,68,6,4,6,Business Analyst,Business Analyst
+3.32,58,2,7,1,Business Analyst,Business Analyst
+3.91,84,5,8,4,Data Science,Data Scientist
+3.08,70,5,1,8,Web Development,Web Developer
+3.94,58,6,5,1,UI/UX Design,UI/UX Designer
+3.86,77,6,3,3,Software Engineering,Software Developer
+2.79,95,6,1,1,Web Development,Web Developer
+2.6,56,2,3,9,Cyber Security,Cyber Security Analyst
+2.65,65,3,6,2,Business Analyst,Business Analyst
+2.53,65,6,7,9,AI/ML,AI Engineer
+2.64,82,8,8,4,AI/ML,AI Engineer
+3.52,53,1,4,2,Cyber Security,Cyber Security Analyst
+2.61,53,1,3,4,Web Development,Web Developer
+2.98,88,2,5,6,AI/ML,AI Engineer
+3.77,89,6,9,7,Web Development,Web Developer
+2.53,66,9,6,3,UI/UX Design,UI/UX Designer
+3.72,86,4,9,3,Cyber Security,Cyber Security Analyst
+2.92,88,3,6,8,Software Engineering,Software Developer
+2.68,78,8,2,5,Web Development,Web Developer
+3.55,85,9,5,4,UI/UX Design,UI/UX Designer
+3.44,87,5,9,7,Web Development,Web Developer
+3.82,88,9,8,7,Web Development,Web Developer
+3.6,99,2,7,9,AI/ML,AI Engineer
+3.71,86,3,1,9,Data Science,Data Scientist
+2.92,84,7,4,5,Business Analyst,Business Analyst
+2.77,56,7,7,8,Web Development,Web Developer
+3.63,76,6,7,1,Web Development,Web Developer
+3.71,77,6,6,9,Web Development,Web Developer
+3.99,71,2,8,8,Data Science,Data Scientist
+3.12,63,6,6,6,UI/UX Design,UI/UX Designer
+3.06,56,4,3,3,Software Engineering,Software Developer
+3.66,86,3,4,3,Software Engineering,Software Developer
+3.01,71,2,3,8,Cyber Security,Cyber Security Analyst
+3.9,54,1,1,5,AI/ML,AI Engineer
+3.79,51,5,5,7,Data Science,Data Scientist
+3.14,76,2,1,5,UI/UX Design,UI/UX Designer
+3.63,70,2,1,8,Web Development,Web Developer
+3.63,87,7,2,4,UI/UX Design,UI/UX Designer
+2.65,64,8,4,2,Data Science,Data Scientist
+3.85,70,8,6,3,Data Science,Data Scientist
+3.26,59,4,8,8,Data Science,Data Scientist
+3.74,72,1,3,7,Cyber Security,Cyber Security Analyst
+2.98,88,7,1,2,Business Analyst,Business Analyst
+3.84,54,1,3,6,AI/ML,AI Engineer
+3.08,50,4,3,9,Cyber Security,Cyber Security Analyst
+2.52,62,8,5,4,Cyber Security,Cyber Security Analyst
+3.86,70,2,4,9,Business Analyst,Business Analyst
+2.64,75,6,4,2,Cyber Security,Cyber Security Analyst
+2.98,99,6,9,2,Data Science,Data Scientist
+3.93,94,9,7,9,Data Science,Data Scientist
+3.93,70,5,4,7,UI/UX Design,UI/UX Designer
+3.36,67,4,3,7,Web Development,Web Developer
+3.45,86,5,6,1,Cyber Security,Cyber Security Analyst
+3.17,94,5,3,6,Web Development,Web Developer
+2.94,81,8,6,7,AI/ML,AI Engineer
+2.99,85,8,9,6,Software Engineering,Software Developer
+3.51,66,2,6,6,Data Science,Data Scientist
+3.63,84,7,4,2,UI/UX Design,UI/UX Designer
+3.69,98,8,5,6,AI/ML,AI Engineer
+3.68,60,6,6,4,UI/UX Design,UI/UX Designer
+2.64,70,5,3,9,Software Engineering,Software Developer
+3.24,75,9,8,1,Software Engineering,Software Developer
+2.59,53,3,4,8,Business Analyst,Business Analyst
+3.32,83,4,8,5,Data Science,Data Scientist
+3.16,97,9,3,1,AI/ML,AI Engineer
+3.83,67,6,7,4,Business Analyst,Business Analyst
+3.03,89,8,9,1,Software Engineering,Software Developer
+2.68,84,7,4,6,AI/ML,AI Engineer
+2.71,90,2,8,2,UI/UX Design,UI/UX Designer
+3.64,78,3,3,5,Business Analyst,Business Analyst
+3.43,78,1,7,7,Business Analyst,Business Analyst
+2.65,87,9,3,2,Data Science,Data Scientist
+2.63,91,7,7,6,Web Development,Web Developer
+3.55,70,1,6,6,UI/UX Design,UI/UX Designer
+2.61,91,3,2,5,UI/UX Design,UI/UX Designer
+3.73,62,4,3,5,Business Analyst,Business Analyst
+3.56,98,4,6,3,Business Analyst,Business Analyst
+2.62,90,5,4,2,Data Science,Data Scientist
+2.63,66,3,6,7,Web Development,Web Developer
+3.98,58,3,1,1,UI/UX Design,UI/UX Designer
+3.06,90,1,1,6,Software Engineering,Software Developer
+3.06,50,7,3,6,Cyber Security,Cyber Security Analyst
+3.72,51,1,8,3,Cyber Security,Cyber Security Analyst
+3.92,97,2,8,2,Web Development,Web Developer
+3.98,78,4,4,2,AI/ML,AI Engineer
+3.63,82,4,6,9,Data Science,Data Scientist
+3.06,59,5,8,5,Web Development,Web Developer
+2.63,99,2,7,7,Cyber Security,Cyber Security Analyst
+3.67,89,4,7,5,Business Analyst,Business Analyst
+3.34,70,1,4,7,Cyber Security,Cyber Security Analyst
+3.14,77,2,9,4,Business Analyst,Business Analyst
+3.86,60,1,6,8,Data Science,Data Scientist
+2.67,83,4,3,7,Business Analyst,Business Analyst
+3.24,57,4,5,5,Web Development,Web Developer
+2.52,71,7,5,6,Business Analyst,Business Analyst
+3.2,57,9,5,5,AI/ML,AI Engineer
+2.58,98,9,8,7,Web Development,Web Developer
+2.68,64,5,9,2,Data Science,Data Scientist
+2.68,66,1,9,5,Web Development,Web Developer
+3.47,72,1,6,3,AI/ML,AI Engineer
+3.62,73,6,6,9,Data Science,Data Scientist
+3.38,94,2,9,6,Cyber Security,Cyber Security Analyst
+3.94,68,8,4,3,AI/ML,AI Engineer
+3.06,54,9,6,7,Data Science,Data Scientist
+2.93,81,4,4,4,Software Engineering,Software Developer
+3.8,93,5,1,3,Business Analyst,Business Analyst
+2.84,50,8,7,8,Web Development,Web Developer
+3.94,72,3,6,4,Data Science,Data Scientist
+2.52,86,5,9,1,Web Development,Web Developer
+3.95,57,3,7,6,Business Analyst,Business Analyst
+2.56,62,3,7,1,Data Science,Data Scientist
+3.84,57,3,2,5,Cyber Security,Cyber Security Analyst
+3.29,72,7,9,7,Software Engineering,Software Developer
+3.99,92,7,9,6,Software Engineering,Software Developer
+2.61,50,7,6,2,AI/ML,AI Engineer
+3.33,94,8,3,4,Data Science,Data Scientist
+3.95,73,5,1,2,Business Analyst,Business Analyst
+3.28,84,5,4,1,Data Science,Data Scientist
+3.44,73,4,3,3,Web Development,Web Developer
+3.54,66,7,1,3,UI/UX Design,UI/UX Designer
+3.18,54,4,3,7,Data Science,Data Scientist
+3.44,69,2,4,1,Software Engineering,Software Developer
+3.38,70,4,8,9,Software Engineering,Software Developer
+3.85,89,8,9,6,Software Engineering,Software Developer
+2.57,80,9,3,4,Cyber Security,Cyber Security Analyst
+2.92,95,3,6,3,Data Science,Data Scientist
+3.93,85,7,5,3,AI/ML,AI Engineer
+3.84,60,9,6,2,Data Science,Data Scientist
+3.18,64,4,4,2,UI/UX Design,UI/UX Designer
+3.43,68,3,6,5,Software Engineering,Software Developer
+2.92,56,5,7,9,Web Development,Web Developer
+2.78,77,1,9,2,Software Engineering,Software Developer
+3.2,92,3,7,2,Data Science,Data Scientist
+3.03,54,8,6,6,Cyber Security,Cyber Security Analyst
+3.38,54,8,1,2,Business Analyst,Business Analyst
+2.62,79,4,2,4,Data Science,Data Scientist
+3.96,81,2,1,6,Data Science,Data Scientist
+3.98,57,8,9,5,AI/ML,AI Engineer
+3.55,59,8,9,1,Cyber Security,Cyber Security Analyst
+3.3,87,4,7,6,UI/UX Design,UI/UX Designer
+2.96,96,3,2,1,Business Analyst,Business Analyst
+3.72,81,2,6,3,Software Engineering,Software Developer
+3.53,97,9,4,5,Web Development,Web Developer
+2.74,77,1,1,5,Data Science,Data Scientist
+3.87,66,7,1,6,UI/UX Design,UI/UX Designer
+3.73,80,5,5,8,Business Analyst,Business Analyst
+3.92,57,8,2,5,Web Development,Web Developer
+3.59,89,4,4,1,UI/UX Design,UI/UX Designer
+3.42,74,7,1,5,Cyber Security,Cyber Security Analyst
+3.13,58,5,4,3,Cyber Security,Cyber Security Analyst
+3.9,51,5,6,4,Business Analyst,Business Analyst
+3.8,64,9,4,8,Software Engineering,Software Developer
+2.57,99,9,1,7,Web Development,Web Developer
+2.54,52,9,7,5,Cyber Security,Cyber Security Analyst
+3.06,98,6,2,2,Business Analyst,Business Analyst
+3.72,85,6,9,6,Cyber Security,Cyber Security Analyst
+3.98,53,5,3,6,Cyber Security,Cyber Security Analyst
+2.73,63,9,8,6,UI/UX Design,UI/UX Designer
+3.39,90,8,8,9,UI/UX Design,UI/UX Designer
+3.07,90,7,3,8,Cyber Security,Cyber Security Analyst
+3.95,74,7,4,8,AI/ML,AI Engineer
+3.76,99,6,2,1,UI/UX Design,UI/UX Designer
+3.76,59,5,4,5,Web Development,Web Developer
+3.2,70,4,9,7,Business Analyst,Business Analyst
+3.12,85,3,2,6,Business Analyst,Business Analyst
+2.91,61,3,3,5,Software Engineering,Software Developer
+2.58,76,6,4,8,Web Development,Web Developer
+3.8,89,4,5,3,Web Development,Web Developer
+3.72,51,6,1,6,Web Development,Web Developer
+4.0,62,3,7,5,Software Engineering,Software Developer
+3.99,81,4,7,8,Web Development,Web Developer
+3.33,80,9,9,4,Data Science,Data Scientist
+3.65,65,5,4,8,Software Engineering,Software Developer
+3.92,81,7,6,2,Business Analyst,Business Analyst
+3.77,81,2,2,9,Data Science,Data Scientist
+2.87,83,5,4,9,Software Engineering,Software Developer
+3.18,60,9,2,6,Cyber Security,Cyber Security Analyst
+2.69,59,3,5,4,Cyber Security,Cyber Security Analyst
+3.93,64,9,7,4,Business Analyst,Business Analyst
+3.41,66,6,1,6,Cyber Security,Cyber Security Analyst
+2.84,89,4,7,5,Web Development,Web Developer
+3.51,67,7,6,6,Software Engineering,Software Developer
+3.43,58,8,6,7,Data Science,Data Scientist
+3.04,74,6,8,7,Web Development,Web Developer
+2.67,89,5,8,9,Cyber Security,Cyber Security Analyst
+3.51,63,6,6,8,UI/UX Design,UI/UX Designer
+3.28,74,5,3,6,Data Science,Data Scientist
+3.66,99,8,5,6,Web Development,Web Developer
+3.28,71,1,2,5,Software Engineering,Software Developer
+3.78,79,7,5,1,Business Analyst,Business Analyst
+3.33,69,2,9,9,Web Development,Web Developer
+3.34,70,9,1,9,UI/UX Design,UI/UX Designer
+3.81,93,1,5,9,Cyber Security,Cyber Security Analyst
+3.11,81,6,6,8,Data Science,Data Scientist
+2.7,95,9,7,3,Business Analyst,Business Analyst
+2.54,98,1,9,1,Data Science,Data Scientist
+3.63,70,4,6,8,Business Analyst,Business Analyst
+3.43,84,4,5,7,Software Engineering,Software Developer
+3.56,81,9,7,5,Data Science,Data Scientist
+2.82,79,5,1,7,Cyber Security,Cyber Security Analyst
+2.7,88,5,5,4,Software Engineering,Software Developer
+2.52,98,6,2,9,Software Engineering,Software Developer
+3.03,61,1,4,2,Business Analyst,Business Analyst
+3.38,90,1,7,9,AI/ML,AI Engineer
+3.09,96,9,5,9,Data Science,Data Scientist
+3.16,67,3,6,5,Data Science,Data Scientist
+3.86,70,4,2,1,Web Development,Web Developer
+3.02,62,1,3,7,Business Analyst,Business Analyst
+3.27,70,9,7,4,UI/UX Design,UI/UX Designer
+3.68,57,8,2,9,AI/ML,AI Engineer
+3.09,95,2,6,6,Cyber Security,Cyber Security Analyst
+3.43,89,8,5,3,Web Development,Web Developer
+3.79,95,7,1,6,AI/ML,AI Engineer
+3.92,56,6,4,6,Business Analyst,Business Analyst
+2.72,72,1,2,5,AI/ML,AI Engineer
+3.89,93,7,4,2,Software Engineering,Software Developer
+3.24,81,7,1,2,Data Science,Data Scientist
+2.89,60,9,2,7,Software Engineering,Software Developer
+3.19,71,1,8,2,Data Science,Data Scientist
+3.97,71,2,6,6,Web Development,Web Developer
+3.24,92,9,2,5,Business Analyst,Business Analyst
+2.99,74,9,6,4,Business Analyst,Business Analyst
+3.45,71,6,9,7,AI/ML,AI Engineer
+2.86,77,6,7,8,Web Development,Web Developer
+2.61,78,4,9,4,Business Analyst,Business Analyst
+2.69,62,4,5,1,UI/UX Design,UI/UX Designer
+2.69,67,5,7,1,UI/UX Design,UI/UX Designer
+2.73,51,3,7,1,Software Engineering,Software Developer
+2.71,78,1,3,1,Data Science,Data Scientist
+3.46,70,1,7,5,AI/ML,AI Engineer
+2.77,64,7,1,4,Cyber Security,Cyber Security Analyst
+3.02,76,1,9,9,Data Science,Data Scientist
+3.85,99,1,6,3,Web Development,Web Developer
+3.21,80,3,5,7,Business Analyst,Business Analyst
+3.5,64,4,7,8,Data Science,Data Scientist
+2.76,72,4,5,6,Cyber Security,Cyber Security Analyst
+2.79,73,2,5,1,Cyber Security,Cyber Security Analyst
+2.56,93,1,7,8,UI/UX Design,UI/UX Designer
+2.75,62,3,7,3,Web Development,Web Developer
+2.92,71,4,3,8,Data Science,Data Scientist
+2.77,92,3,3,4,AI/ML,AI Engineer
+2.63,86,8,3,8,Data Science,Data Scientist
+2.68,82,1,6,1,UI/UX Design,UI/UX Designer
+3.19,52,2,6,3,Software Engineering,Software Developer
+2.81,68,7,3,6,Cyber Security,Cyber Security Analyst
+3.05,72,4,3,9,Web Development,Web Developer
+3.26,78,8,8,2,Web Development,Web Developer
+3.54,79,3,8,1,AI/ML,AI Engineer
+2.56,88,6,7,3,Web Development,Web Developer
+3.7,93,9,4,4,UI/UX Design,UI/UX Designer
+3.44,96,1,4,5,UI/UX Design,UI/UX Designer
+2.62,74,1,3,3,UI/UX Design,UI/UX Designer
+3.81,86,8,5,2,Web Development,Web Developer
+3.88,96,3,3,2,Web Development,Web Developer
+2.59,57,5,8,7,UI/UX Design,UI/UX Designer
+2.92,91,1,7,9,Web Development,Web Developer
+3.71,65,5,3,2,Web Development,Web Developer
+3.62,57,6,9,7,Cyber Security,Cyber Security Analyst
+2.78,50,8,5,7,Data Science,Data Scientist
+2.81,93,3,9,7,Business Analyst,Business Analyst
+3.06,54,3,7,3,Web Development,Web Developer
+3.23,52,9,7,7,Business Analyst,Business Analyst
+3.43,50,4,6,1,Software Engineering,Software Developer
+3.05,53,4,2,1,Business Analyst,Business Analyst
+3.19,89,7,9,5,Cyber Security,Cyber Security Analyst
+3.62,84,2,6,2,Web Development,Web Developer
+2.56,81,8,8,9,UI/UX Design,UI/UX Designer
+2.88,91,6,1,7,Business Analyst,Business Analyst
+3.57,83,3,5,4,Web Development,Web Developer
+3.84,92,9,1,4,AI/ML,AI Engineer
+3.27,74,5,8,2,Software Engineering,Software Developer
+3.3,59,8,8,5,UI/UX Design,UI/UX Designer
+2.66,70,7,1,4,AI/ML,AI Engineer
+3.17,95,8,9,1,AI/ML,AI Engineer
+3.3,88,7,2,8,Business Analyst,Business Analyst
+2.86,76,3,9,3,AI/ML,AI Engineer
+2.9,76,2,1,6,Cyber Security,Cyber Security Analyst
+3.07,51,7,9,4,Cyber Security,Cyber Security Analyst
+2.53,90,3,4,9,Business Analyst,Business Analyst
+2.98,97,3,9,7,Web Development,Web Developer
+2.82,62,2,7,9,Data Science,Data Scientist
+2.99,58,4,6,3,Web Development,Web Developer
+2.68,85,8,5,1,Web Development,Web Developer
+3.84,71,1,9,5,Web Development,Web Developer
+3.39,91,1,2,3,Web Development,Web Developer
+3.52,75,5,2,6,UI/UX Design,UI/UX Designer
+3.68,61,5,9,8,Data Science,Data Scientist
+3.25,66,1,3,4,UI/UX Design,UI/UX Designer
+2.63,63,6,8,5,AI/ML,AI Engineer
+3.31,63,1,9,5,Software Engineering,Software Developer
+3.38,83,5,8,4,Web Development,Web Developer
+3.62,69,9,4,4,Software Engineering,Software Developer
+3.15,60,5,1,4,Cyber Security,Cyber Security Analyst
+2.69,65,6,4,4,Business Analyst,Business Analyst
+2.93,80,8,9,4,Business Analyst,Business Analyst
+3.04,55,1,2,5,UI/UX Design,UI/UX Designer
+3.47,68,2,3,2,UI/UX Design,UI/UX Designer
+3.36,86,9,8,2,Cyber Security,Cyber Security Analyst
+3.03,53,3,6,9,Web Development,Web Developer
+3.98,96,6,8,2,Software Engineering,Software Developer
+3.41,53,5,7,6,Software Engineering,Software Developer
+2.86,69,2,5,2,Data Science,Data Scientist
+2.65,59,7,9,5,AI/ML,AI Engineer
+2.73,73,4,4,4,Business Analyst,Business Analyst
+2.87,84,1,6,7,AI/ML,AI Engineer
+2.74,75,4,2,7,Data Science,Data Scientist
+2.78,86,6,2,6,UI/UX Design,UI/UX Designer
+2.93,87,7,2,5,Software Engineering,Software Developer
+2.76,70,7,7,1,Business Analyst,Business Analyst
+3.85,89,7,2,3,AI/ML,AI Engineer
+2.62,88,3,2,9,UI/UX Design,UI/UX Designer
+3.29,70,6,9,1,Data Science,Data Scientist
+3.12,59,8,7,5,AI/ML,AI Engineer
+3.97,87,4,3,2,Software Engineering,Software Developer
+2.67,95,8,3,4,Web Development,Web Developer
+3.1,53,2,7,1,UI/UX Design,UI/UX Designer
+3.95,94,9,5,3,Data Science,Data Scientist
+3.8,69,9,6,7,AI/ML,AI Engineer
+3.73,66,8,8,3,Software Engineering,Software Developer
+2.89,56,1,9,4,Web Development,Web Developer
+2.76,53,2,1,2,Web Development,Web Developer
+3.5,78,6,3,3,Data Science,Data Scientist
+3.89,63,5,7,9,Cyber Security,Cyber Security Analyst
+3.34,52,9,6,3,Software Engineering,Software Developer
+3.36,73,5,7,5,Software Engineering,Software Developer
+2.92,86,2,8,2,Business Analyst,Business Analyst
+3.65,65,4,6,4,Data Science,Data Scientist
+2.78,53,9,3,7,Web Development,Web Developer
+2.99,73,1,2,7,Web Development,Web Developer
+3.14,83,1,7,3,Data Science,Data Scientist
+3.26,79,7,1,5,Cyber Security,Cyber Security Analyst
+2.86,67,3,3,1,Business Analyst,Business Analyst
+2.67,68,2,4,1,AI/ML,AI Engineer
+3.42,80,9,1,5,Data Science,Data Scientist
+2.93,68,3,5,9,Business Analyst,Business Analyst
+3.37,98,2,3,1,Software Engineering,Software Developer
+2.73,95,8,2,1,Business Analyst,Business Analyst
+3.22,68,6,3,4,UI/UX Design,UI/UX Designer
+3.3,71,6,8,4,Web Development,Web Developer
+2.58,73,7,6,2,AI/ML,AI Engineer
+3.0,94,7,7,9,Data Science,Data Scientist
+2.7,61,6,6,9,Web Development,Web Developer
+2.6,79,4,6,2,UI/UX Design,UI/UX Designer
+3.98,87,9,3,9,UI/UX Design,UI/UX Designer
+2.98,80,6,8,6,Web Development,Web Developer
+3.71,85,4,7,8,Cyber Security,Cyber Security Analyst
+2.88,68,3,7,4,Business Analyst,Business Analyst
+3.52,97,4,6,2,Data Science,Data Scientist
+3.64,94,3,5,2,Data Science,Data Scientist
+3.39,85,2,8,9,Data Science,Data Scientist
+3.21,79,5,5,1,Web Development,Web Developer
+3.12,98,2,9,7,Software Engineering,Software Developer
+3.02,82,6,9,3,Cyber Security,Cyber Security Analyst
+3.89,67,3,1,3,AI/ML,AI Engineer
+3.75,98,6,6,2,UI/UX Design,UI/UX Designer
+3.95,77,9,7,6,Web Development,Web Developer
+2.69,96,1,3,2,Software Engineering,Software Developer
+3.6,60,6,7,4,AI/ML,AI Engineer
+3.91,94,9,7,9,UI/UX Design,UI/UX Designer
+2.77,82,4,2,9,UI/UX Design,UI/UX Designer
+2.6,66,2,7,6,Cyber Security,Cyber Security Analyst
+3.61,55,4,1,4,Business Analyst,Business Analyst
+3.36,53,1,5,7,Data Science,Data Scientist
+3.76,69,3,9,1,AI/ML,AI Engineer
+2.71,97,9,7,4,Web Development,Web Developer
+3.69,96,5,7,5,AI/ML,AI Engineer
+2.8,76,6,2,8,Business Analyst,Business Analyst
+2.75,64,3,8,2,Data Science,Data Scientist
+2.75,55,5,3,5,AI/ML,AI Engineer
+3.72,96,8,8,6,Business Analyst,Business Analyst
+3.5,63,6,3,5,Web Development,Web Developer
+3.28,60,4,7,9,Cyber Security,Cyber Security Analyst
+3.04,88,2,2,1,Software Engineering,Software Developer
+3.82,58,9,4,3,UI/UX Design,UI/UX Designer
+3.09,75,1,6,2,Web Development,Web Developer
+3.72,65,1,9,3,Data Science,Data Scientist
+3.16,54,4,5,9,UI/UX Design,UI/UX Designer
+3.07,59,7,9,9,Software Engineering,Software Developer
+3.19,99,1,5,2,Web Development,Web Developer
+2.95,52,9,8,3,Web Development,Web Developer
+3.62,62,4,1,4,Web Development,Web Developer
+3.25,92,3,7,9,Web Development,Web Developer
+2.85,98,1,4,3,UI/UX Design,UI/UX Designer
+3.85,79,4,5,7,Data Science,Data Scientist
+3.08,94,9,6,3,Software Engineering,Software Developer
+3.32,55,6,5,7,Business Analyst,Business Analyst
+3.86,66,6,1,7,AI/ML,AI Engineer
+3.44,94,1,9,9,Cyber Security,Cyber Security Analyst
+2.68,68,2,2,2,Software Engineering,Software Developer
+3.91,91,6,9,6,AI/ML,AI Engineer
+3.44,84,2,2,9,AI/ML,AI Engineer
+3.0,95,3,9,2,Cyber Security,Cyber Security Analyst
+2.71,75,4,6,2,Software Engineering,Software Developer
+3.69,54,5,9,5,UI/UX Design,UI/UX Designer
+3.43,78,9,6,8,Data Science,Data Scientist
+3.3,86,4,6,9,Cyber Security,Cyber Security Analyst
+3.84,69,9,2,2,Data Science,Data Scientist
+3.68,98,3,8,5,UI/UX Design,UI/UX Designer
+2.73,70,8,3,7,AI/ML,AI Engineer
+2.97,59,1,7,6,Data Science,Data Scientist
+2.87,54,9,5,6,UI/UX Design,UI/UX Designer
+3.62,85,9,3,7,UI/UX Design,UI/UX Designer
+2.55,55,2,1,3,Business Analyst,Business Analyst
+3.35,75,4,8,3,Cyber Security,Cyber Security Analyst
+3.64,53,8,3,9,Business Analyst,Business Analyst
+3.82,88,7,2,8,AI/ML,AI Engineer
+3.01,88,1,1,5,Cyber Security,Cyber Security Analyst
+3.73,99,5,4,6,AI/ML,AI Engineer
+2.67,84,7,8,1,Business Analyst,Business Analyst
+3.77,50,4,3,1,Software Engineering,Software Developer
+2.69,73,1,1,4,UI/UX Design,UI/UX Designer
+3.1,85,9,4,2,AI/ML,AI Engineer
+3.7,55,5,9,7,Cyber Security,Cyber Security Analyst
+2.72,90,2,1,2,Cyber Security,Cyber Security Analyst
+2.84,95,8,2,2,AI/ML,AI Engineer
+3.58,93,2,9,5,Cyber Security,Cyber Security Analyst
+3.58,80,3,2,4,UI/UX Design,UI/UX Designer
+3.46,69,1,3,8,Software Engineering,Software Developer
+3.54,73,2,7,4,UI/UX Design,UI/UX Designer
+3.31,74,7,3,6,Cyber Security,Cyber Security Analyst
+2.88,85,2,9,5,AI/ML,AI Engineer
+3.02,70,6,6,2,Business Analyst,Business Analyst
+2.77,79,3,3,8,Cyber Security,Cyber Security Analyst
+3.86,73,4,9,2,Cyber Security,Cyber Security Analyst
+3.38,93,8,1,9,Cyber Security,Cyber Security Analyst
+3.1,91,3,3,9,Cyber Security,Cyber Security Analyst
+3.19,79,6,1,3,AI/ML,AI Engineer
+3.92,71,1,2,4,Business Analyst,Business Analyst
+2.73,77,7,8,8,Business Analyst,Business Analyst
+3.38,56,8,7,9,Data Science,Data Scientist
+3.26,84,8,2,3,Cyber Security,Cyber Security Analyst
+3.42,77,3,2,5,Cyber Security,Cyber Security Analyst
+2.53,63,1,9,8,Data Science,Data Scientist
+3.81,59,9,6,3,Business Analyst,Business Analyst
+3.9,65,6,5,7,Web Development,Web Developer
+3.35,65,9,6,8,UI/UX Design,UI/UX Designer
+3.54,80,7,9,3,Web Development,Web Developer
+3.88,91,1,7,2,Business Analyst,Business Analyst
+3.56,74,1,9,7,Software Engineering,Software Developer
+2.73,62,6,4,9,Cyber Security,Cyber Security Analyst
+3.36,55,5,2,1,Web Development,Web Developer
+3.41,93,9,8,3,AI/ML,AI Engineer
+3.14,58,2,4,5,AI/ML,AI Engineer
+3.6,94,8,9,3,Data Science,Data Scientist
+3.9,85,5,4,1,Business Analyst,Business Analyst
+3.89,92,2,8,7,Business Analyst,Business Analyst
+3.18,69,6,9,7,Web Development,Web Developer
+2.67,67,8,9,8,Cyber Security,Cyber Security Analyst
+3.98,92,4,4,5,Business Analyst,Business Analyst
+3.76,70,2,1,5,Web Development,Web Developer
+2.69,53,5,3,5,Web Development,Web Developer
+3.88,99,2,9,1,UI/UX Design,UI/UX Designer
+3.8,82,2,4,5,UI/UX Design,UI/UX Designer
+3.28,76,6,5,6,Business Analyst,Business Analyst
+3.39,56,9,7,1,Web Development,Web Developer
+3.1,55,4,5,7,Data Science,Data Scientist
+2.58,64,6,4,1,Data Science,Data Scientist
+3.0,67,7,2,2,UI/UX Design,UI/UX Designer
+3.7,81,6,2,2,Business Analyst,Business Analyst
+2.51,60,8,4,5,Cyber Security,Cyber Security Analyst
+3.0,69,4,9,7,Software Engineering,Software Developer
+3.1,73,1,8,1,Data Science,Data Scientist
+3.31,64,7,3,1,Data Science,Data Scientist
+3.88,97,3,9,1,UI/UX Design,UI/UX Designer
+3.02,56,6,5,6,UI/UX Design,UI/UX Designer
+3.02,70,2,3,2,Business Analyst,Business Analyst
+3.61,91,9,5,1,UI/UX Design,UI/UX Designer
+3.18,75,1,4,6,AI/ML,AI Engineer
+2.84,93,6,8,2,Software Engineering,Software Developer
+3.18,63,6,5,6,Web Development,Web Developer
+2.71,86,5,8,8,Data Science,Data Scientist
+2.76,70,5,9,2,AI/ML,AI Engineer
+3.25,67,1,4,9,Cyber Security,Cyber Security Analyst
+3.13,54,5,7,8,AI/ML,AI Engineer
+3.87,52,2,2,1,Business Analyst,Business Analyst
+3.04,72,7,6,7,Cyber Security,Cyber Security Analyst
+3.37,75,3,8,6,Cyber Security,Cyber Security Analyst
+3.45,86,4,7,6,UI/UX Design,UI/UX Designer
+2.52,73,3,7,6,AI/ML,AI Engineer
+3.5,98,3,8,6,Business Analyst,Business Analyst
+2.77,68,4,7,7,Data Science,Data Scientist
+3.94,74,5,5,3,Software Engineering,Software Developer
+2.72,70,1,7,6,UI/UX Design,UI/UX Designer
+3.12,61,4,3,3,AI/ML,AI Engineer
+2.63,90,8,5,7,Data Science,Data Scientist
+4.0,82,7,7,7,AI/ML,AI Engineer
+3.25,99,9,9,8,UI/UX Design,UI/UX Designer
+3.39,53,5,2,2,Data Science,Data Scientist
+2.6,91,4,4,9,UI/UX Design,UI/UX Designer
+3.62,56,8,7,5,AI/ML,AI Engineer
+2.81,71,9,1,9,Cyber Security,Cyber Security Analyst
+3.85,82,7,2,5,Software Engineering,Software Developer
+2.81,66,7,9,7,Web Development,Web Developer
+2.79,73,5,7,9,Software Engineering,Software Developer
+2.55,83,4,7,4,Cyber Security,Cyber Security Analyst
+3.21,77,1,6,2,UI/UX Design,UI/UX Designer
+3.35,92,7,3,9,Software Engineering,Software Developer
+2.6,90,1,3,2,UI/UX Design,UI/UX Designer
+3.66,88,1,2,3,UI/UX Design,UI/UX Designer
+3.18,71,5,6,2,Data Science,Data Scientist
+3.29,98,9,4,3,Business Analyst,Business Analyst
+3.16,66,6,5,6,UI/UX Design,UI/UX Designer
+3.1,83,3,3,3,Software Engineering,Software Developer
+3.34,55,3,6,8,Software Engineering,Software Developer
+2.73,95,7,3,6,Software Engineering,Software Developer
+2.77,55,6,8,7,Cyber Security,Cyber Security Analyst
+3.79,83,9,9,1,Web Development,Web Developer
+3.92,50,6,4,3,UI/UX Design,UI/UX Designer
+3.06,59,5,9,3,UI/UX Design,UI/UX Designer
+2.91,70,7,7,2,UI/UX Design,UI/UX Designer
+3.47,54,1,3,7,Data Science,Data Scientist
+3.11,51,7,7,9,UI/UX Design,UI/UX Designer
+2.54,71,3,1,4,Cyber Security,Cyber Security Analyst
+2.73,97,9,3,5,AI/ML,AI Engineer
+3.57,51,6,6,3,Business Analyst,Business Analyst
+3.49,59,9,4,9,Software Engineering,Software Developer
+2.54,83,5,7,4,UI/UX Design,UI/UX Designer
+2.83,65,7,3,5,Data Science,Data Scientist
+2.85,97,4,1,1,Cyber Security,Cyber Security Analyst
+3.51,88,7,9,2,UI/UX Design,UI/UX Designer
+2.53,71,1,6,9,Data Science,Data Scientist
+2.66,61,7,8,2,AI/ML,AI Engineer
+3.7,73,8,3,5,Web Development,Web Developer
+2.77,96,5,8,8,UI/UX Design,UI/UX Designer
+3.48,89,2,2,3,Cyber Security,Cyber Security Analyst
+2.86,87,5,4,6,Data Science,Data Scientist
+2.65,59,6,3,4,Data Science,Data Scientist
+2.86,84,2,1,7,UI/UX Design,UI/UX Designer
+3.58,98,6,7,3,Data Science,Data Scientist
+3.78,81,6,2,6,Web Development,Web Developer
+3.75,56,1,4,9,Data Science,Data Scientist
+3.1,70,1,9,1,Software Engineering,Software Developer
+3.5,69,3,6,3,Business Analyst,Business Analyst
+2.81,75,3,8,2,Software Engineering,Software Developer
+2.94,53,4,2,8,Business Analyst,Business Analyst
+3.84,95,2,7,7,Data Science,Data Scientist
+2.52,71,9,6,2,UI/UX Design,UI/UX Designer
+2.63,64,7,9,6,Business Analyst,Business Analyst
+2.81,89,7,7,3,Cyber Security,Cyber Security Analyst
+2.54,70,6,1,8,Business Analyst,Business Analyst
+2.77,64,3,8,3,Software Engineering,Software Developer
+3.37,71,6,3,9,Data Science,Data Scientist
+3.13,77,8,2,1,UI/UX Design,UI/UX Designer
+3.84,63,8,3,5,AI/ML,AI Engineer
+3.73,76,9,6,3,UI/UX Design,UI/UX Designer
+3.01,90,1,3,6,UI/UX Design,UI/UX Designer
+2.89,89,1,5,2,UI/UX Design,UI/UX Designer
+3.07,77,3,6,9,Cyber Security,Cyber Security Analyst
+3.39,75,3,8,6,Web Development,Web Developer
+2.9,98,8,7,7,Software Engineering,Software Developer
+3.44,51,1,8,5,Data Science,Data Scientist
+3.11,74,2,3,9,Web Development,Web Developer
+3.33,52,2,4,1,AI/ML,AI Engineer
+3.15,57,3,6,5,Web Development,Web Developer
+2.94,93,6,7,6,Data Science,Data Scientist
+3.92,82,1,9,7,Software Engineering,Software Developer
+3.65,91,2,1,4,Software Engineering,Software Developer
+2.71,84,1,8,1,Data Science,Data Scientist
+3.8,55,5,8,8,AI/ML,AI Engineer
+3.23,88,7,6,4,Data Science,Data Scientist
+3.84,72,8,4,3,AI/ML,AI Engineer
+3.7,74,1,3,7,AI/ML,AI Engineer
+3.14,99,7,3,2,Data Science,Data Scientist
+2.53,92,5,6,8,Business Analyst,Business Analyst
+2.9,68,1,8,6,Software Engineering,Software Developer
+3.31,54,3,7,7,AI/ML,AI Engineer
+3.45,60,7,1,5,Data Science,Data Scientist
+2.89,61,1,6,9,Business Analyst,Business Analyst
+2.71,59,7,7,5,Software Engineering,Software Developer
+3.75,57,5,7,5,AI/ML,AI Engineer
+3.98,73,1,9,3,Software Engineering,Software Developer
+3.29,77,1,5,1,Business Analyst,Business Analyst
+2.76,90,1,1,2,Software Engineering,Software Developer
+2.91,85,9,2,8,Cyber Security,Cyber Security Analyst
+2.53,86,3,4,1,UI/UX Design,UI/UX Designer
+3.87,70,5,5,7,Cyber Security,Cyber Security Analyst
+2.68,57,9,9,5,Business Analyst,Business Analyst
+3.36,58,6,1,3,AI/ML,AI Engineer
+2.91,96,9,3,7,Data Science,Data Scientist
+3.33,64,8,5,9,Web Development,Web Developer
+3.48,97,8,3,2,Data Science,Data Scientist
+3.74,95,1,4,8,Software Engineering,Software Developer
+2.81,89,9,3,9,Web Development,Web Developer
+2.52,67,6,4,3,Web Development,Web Developer
+2.71,91,9,1,2,Software Engineering,Software Developer
+3.85,69,3,8,7,Software Engineering,Software Developer
+3.81,55,3,4,5,AI/ML,AI Engineer
+3.4,61,6,7,5,Business Analyst,Business Analyst
+3.4,51,9,2,5,Data Science,Data Scientist
+3.5,56,7,2,4,Business Analyst,Business Analyst
+2.76,65,3,6,5,Cyber Security,Cyber Security Analyst
+3.87,52,3,2,4,AI/ML,AI Engineer
+3.13,94,2,6,6,AI/ML,AI Engineer
+3.07,52,9,2,4,Cyber Security,Cyber Security Analyst
+3.28,76,3,4,2,Data Science,Data Scientist
+2.57,99,5,7,9,UI/UX Design,UI/UX Designer
+2.75,92,9,8,2,Cyber Security,Cyber Security Analyst
+3.61,89,8,3,9,Data Science,Data Scientist
+2.62,87,2,9,6,Web Development,Web Developer
+3.4,82,3,2,9,Software Engineering,Software Developer
+2.87,77,2,8,9,AI/ML,AI Engineer
+3.08,50,8,8,3,Data Science,Data Scientist
+2.93,57,6,4,1,Business Analyst,Business Analyst
+3.03,86,6,1,1,Software Engineering,Software Developer
+3.58,81,9,1,3,Business Analyst,Business Analyst
+2.95,97,8,2,5,Software Engineering,Software Developer
+3.35,92,4,9,3,AI/ML,AI Engineer
+3.21,86,4,2,9,Cyber Security,Cyber Security Analyst
+3.5,53,9,2,9,UI/UX Design,UI/UX Designer
+3.91,79,1,6,3,Cyber Security,Cyber Security Analyst
+3.6,55,2,7,3,Data Science,Data Scientist
+2.82,95,2,7,5,Cyber Security,Cyber Security Analyst
+2.55,68,6,9,2,AI/ML,AI Engineer
+2.89,81,4,6,6,Data Science,Data Scientist
+3.39,58,3,8,7,Web Development,Web Developer
+2.58,61,3,6,9,Cyber Security,Cyber Security Analyst
+3.24,60,3,2,6,Cyber Security,Cyber Security Analyst
+3.4,95,6,1,3,UI/UX Design,UI/UX Designer
+3.0,65,8,5,5,Data Science,Data Scientist
+3.66,50,7,9,4,Business Analyst,Business Analyst
+2.66,94,4,8,5,Cyber Security,Cyber Security Analyst
+2.61,70,4,4,8,AI/ML,AI Engineer
+3.59,79,2,5,8,Cyber Security,Cyber Security Analyst
+3.24,62,1,5,6,UI/UX Design,UI/UX Designer
+3.53,83,9,6,1,Web Development,Web Developer
+3.15,53,2,3,8,UI/UX Design,UI/UX Designer
+2.87,77,8,5,8,Cyber Security,Cyber Security Analyst
+3.73,87,9,2,2,Business Analyst,Business Analyst
+3.7,80,4,1,4,Software Engineering,Software Developer
+3.54,76,8,1,2,Cyber Security,Cyber Security Analyst
+2.91,54,9,7,4,Data Science,Data Scientist
+3.39,74,5,2,7,Cyber Security,Cyber Security Analyst
+3.04,52,7,4,9,Business Analyst,Business Analyst
+2.64,82,4,5,8,Data Science,Data Scientist
+3.88,53,1,7,9,AI/ML,AI Engineer
+2.71,74,3,2,8,Data Science,Data Scientist
+3.93,69,5,6,2,UI/UX Design,UI/UX Designer
+3.17,83,3,1,7,Web Development,Web Developer
+2.78,75,7,7,2,UI/UX Design,UI/UX Designer
+3.31,54,9,9,2,Software Engineering,Software Developer
+3.81,84,6,5,4,Data Science,Data Scientist
+3.6,77,1,5,1,AI/ML,AI Engineer
+3.71,78,7,4,5,Cyber Security,Cyber Security Analyst
+3.49,58,3,3,6,Data Science,Data Scientist
+3.54,87,5,9,9,UI/UX Design,UI/UX Designer
+3.77,99,4,5,8,Data Science,Data Scientist
+2.87,55,5,8,2,Data Science,Data Scientist
+3.23,68,5,9,1,Data Science,Data Scientist
+2.83,93,6,5,2,AI/ML,AI Engineer
+3.98,60,6,9,7,Business Analyst,Business Analyst
+3.92,51,8,2,4,Business Analyst,Business Analyst
+2.56,96,8,9,5,Data Science,Data Scientist
+3.56,93,9,4,7,AI/ML,AI Engineer
+3.89,93,8,6,3,AI/ML,AI Engineer
+2.77,58,2,6,2,Software Engineering,Software Developer
+3.35,70,1,6,7,Data Science,Data Scientist
+3.87,73,2,2,5,UI/UX Design,UI/UX Designer
+2.55,83,2,7,1,UI/UX Design,UI/UX Designer
+3.55,71,3,6,1,Web Development,Web Developer
+2.95,52,7,1,9,Data Science,Data Scientist
+3.89,61,2,2,5,Web Development,Web Developer
+3.96,77,1,7,1,UI/UX Design,UI/UX Designer
+3.92,79,6,1,7,UI/UX Design,UI/UX Designer
+3.21,75,9,1,9,Data Science,Data Scientist
+3.79,97,3,1,1,Web Development,Web Developer
+3.77,70,6,8,4,Web Development,Web Developer
+2.98,77,3,4,3,Data Science,Data Scientist
+3.74,75,1,4,5,Software Engineering,Software Developer
+2.56,82,5,2,7,Web Development,Web Developer
+3.39,70,4,1,8,Software Engineering,Software Developer
+2.85,84,7,9,2,Cyber Security,Cyber Security Analyst
+2.68,83,6,7,7,UI/UX Design,UI/UX Designer
+2.62,90,7,4,1,Business Analyst,Business Analyst
+3.54,96,5,6,7,Software Engineering,Software Developer
+3.01,67,4,2,8,Software Engineering,Software Developer
+3.59,60,7,7,2,Software Engineering,Software Developer
+2.6,72,7,2,9,AI/ML,AI Engineer
+2.97,97,6,8,1,Web Development,Web Developer
+3.31,71,8,8,6,Web Development,Web Developer
+3.69,66,4,1,1,AI/ML,AI Engineer
+2.98,54,5,8,3,Web Development,Web Developer
+3.44,93,4,2,6,AI/ML,AI Engineer
+3.83,60,1,6,3,Software Engineering,Software Developer
+3.42,79,8,1,8,Data Science,Data Scientist
+2.85,64,1,5,5,Cyber Security,Cyber Security Analyst
+2.54,76,5,7,2,Software Engineering,Software Developer
+3.81,84,6,1,4,Cyber Security,Cyber Security Analyst
+2.53,82,6,2,9,UI/UX Design,UI/UX Designer
+3.81,69,5,7,4,Software Engineering,Software Developer
+3.29,65,3,6,8,Business Analyst,Business Analyst
+3.91,83,5,3,5,Web Development,Web Developer
+3.7,51,8,2,1,Business Analyst,Business Analyst
+4.0,84,2,4,7,Data Science,Data Scientist
+3.03,89,6,3,3,Cyber Security,Cyber Security Analyst
+3.65,77,9,7,8,Software Engineering,Software Developer
+3.1,96,8,8,3,Data Science,Data Scientist
+3.22,88,8,2,1,Data Science,Data Scientist
+3.44,55,8,7,5,Web Development,Web Developer
+3.81,58,7,8,2,Data Science,Data Scientist
+3.98,69,8,6,4,Software Engineering,Software Developer
+3.65,50,6,6,1,Software Engineering,Software Developer
+3.13,57,2,1,9,Cyber Security,Cyber Security Analyst
+3.13,72,2,4,6,Software Engineering,Software Developer
+3.61,52,8,1,8,Business Analyst,Business Analyst
+2.86,53,1,4,4,Cyber Security,Cyber Security Analyst
+2.67,74,6,2,9,Web Development,Web Developer
+3.03,96,6,5,2,Cyber Security,Cyber Security Analyst
+2.93,87,4,9,9,AI/ML,AI Engineer
+2.94,64,3,3,5,Business Analyst,Business Analyst
+2.85,70,3,8,6,AI/ML,AI Engineer
+2.56,84,1,3,3,AI/ML,AI Engineer
+2.53,95,3,6,4,UI/UX Design,UI/UX Designer
+3.98,63,4,4,6,Software Engineering,Software Developer
+3.14,85,5,8,7,Web Development,Web Developer
+3.08,61,3,6,1,Data Science,Data Scientist
+3.52,66,6,8,7,AI/ML,AI Engineer
+2.83,88,5,1,1,Cyber Security,Cyber Security Analyst
+3.92,58,3,6,5,Data Science,Data Scientist
+3.68,84,6,1,6,Cyber Security,Cyber Security Analyst
+2.63,62,6,1,2,Cyber Security,Cyber Security Analyst
+3.13,64,8,8,9,Data Science,Data Scientist
+3.82,67,2,7,6,Data Science,Data Scientist
+3.92,82,1,3,7,Software Engineering,Software Developer
+3.2,55,4,6,8,Cyber Security,Cyber Security Analyst
+3.42,76,7,9,1,Web Development,Web Developer
+2.75,72,3,7,8,Software Engineering,Software Developer
+3.99,76,3,3,4,Business Analyst,Business Analyst
+2.85,83,5,6,8,UI/UX Design,UI/UX Designer
+3.91,95,5,4,6,Business Analyst,Business Analyst
+3.47,87,3,3,9,Web Development,Web Developer
+3.41,63,9,9,4,Software Engineering,Software Developer
+3.27,85,4,2,2,UI/UX Design,UI/UX Designer
+2.85,57,3,1,2,Software Engineering,Software Developer
+2.76,84,2,2,5,Data Science,Data Scientist
+2.83,68,9,7,9,UI/UX Design,UI/UX Designer
+2.78,79,4,1,3,Cyber Security,Cyber Security Analyst
+3.67,63,3,6,8,Business Analyst,Business Analyst
+3.03,69,7,7,4,UI/UX Design,UI/UX Designer
+2.59,98,8,9,6,Cyber Security,Cyber Security Analyst
+3.95,74,2,8,6,Software Engineering,Software Developer
+3.83,89,7,6,3,Web Development,Web Developer
+3.89,73,5,3,5,UI/UX Design,UI/UX Designer
+3.99,63,5,8,3,Cyber Security,Cyber Security Analyst
+2.76,75,3,7,1,Software Engineering,Software Developer
+3.09,87,5,3,7,Software Engineering,Software Developer
+3.64,72,2,9,4,Software Engineering,Software Developer
+3.54,71,4,2,7,Web Development,Web Developer
+2.73,97,6,3,3,Data Science,Data Scientist
+3.72,68,1,2,5,Web Development,Web Developer
+2.84,95,4,1,5,Web Development,Web Developer
+2.84,52,6,4,2,Business Analyst,Business Analyst
+3.31,91,9,5,2,Software Engineering,Software Developer
+3.39,68,2,6,4,Cyber Security,Cyber Security Analyst
+3.37,58,7,5,4,UI/UX Design,UI/UX Designer
+2.64,77,6,1,4,Business Analyst,Business Analyst
+3.82,69,2,3,6,Software Engineering,Software Developer
+2.9,94,8,1,2,AI/ML,AI Engineer
+2.69,56,7,5,6,Web Development,Web Developer
+3.83,63,5,5,7,AI/ML,AI Engineer
+3.93,58,5,6,3,Software Engineering,Software Developer
+3.79,68,7,8,8,Business Analyst,Business Analyst
+3.71,96,9,1,2,Cyber Security,Cyber Security Analyst
+3.48,63,9,4,8,Business Analyst,Business Analyst
+3.33,87,9,1,5,Cyber Security,Cyber Security Analyst
+2.63,85,6,9,2,Cyber Security,Cyber Security Analyst
+3.11,89,6,7,7,Software Engineering,Software Developer
+3.06,66,3,7,2,Data Science,Data Scientist
+2.89,79,1,5,6,Software Engineering,Software Developer
+3.59,58,7,7,3,Web Development,Web Developer
+3.24,82,4,2,9,Business Analyst,Business Analyst
+2.62,74,1,4,3,Cyber Security,Cyber Security Analyst
+2.83,63,8,7,3,Software Engineering,Software Developer
+3.52,60,6,3,5,Software Engineering,Software Developer
+2.61,84,6,2,7,Business Analyst,Business Analyst
+3.78,90,2,2,8,Business Analyst,Business Analyst
+3.24,63,1,1,7,Cyber Security,Cyber Security Analyst
+3.22,79,2,5,9,UI/UX Design,UI/UX Designer
+3.39,90,4,6,5,AI/ML,AI Engineer
+3.74,53,2,6,3,Web Development,Web Developer
+3.02,53,1,9,6,Web Development,Web Developer
+3.52,77,7,4,5,UI/UX Design,UI/UX Designer
+3.35,57,8,1,4,Data Science,Data Scientist
+2.9,51,6,6,2,UI/UX Design,UI/UX Designer
+3.82,90,4,5,7,Data Science,Data Scientist
+3.7,95,6,6,5,Data Science,Data Scientist
+3.49,71,3,3,4,UI/UX Design,UI/UX Designer
+3.78,90,8,2,8,Web Development,Web Developer
+3.8,65,2,6,9,AI/ML,AI Engineer
+3.56,78,5,1,9,Web Development,Web Developer
+3.76,98,1,7,3,Software Engineering,Software Developer
+3.55,97,6,7,3,Web Development,Web Developer
+3.52,79,2,7,5,Web Development,Web Developer
+3.43,61,4,1,5,UI/UX Design,UI/UX Designer
+3.63,84,6,4,2,UI/UX Design,UI/UX Designer
+2.74,60,8,7,1,Software Engineering,Software Developer
+3.82,95,8,9,8,Software Engineering,Software Developer
+3.81,99,6,5,3,UI/UX Design,UI/UX Designer
+2.54,70,4,2,1,Web Development,Web Developer
+3.74,70,8,7,1,AI/ML,AI Engineer
+2.69,54,8,1,2,Data Science,Data Scientist
+3.0,97,1,7,6,Business Analyst,Business Analyst
+3.62,69,4,6,6,Data Science,Data Scientist
+2.74,86,4,7,3,Software Engineering,Software Developer
+3.73,52,7,3,4,Software Engineering,Software Developer
+3.75,93,7,3,2,Data Science,Data Scientist
+3.26,82,8,7,2,Business Analyst,Business Analyst
+2.51,58,5,2,7,Web Development,Web Developer
+2.93,58,7,1,1,AI/ML,AI Engineer
+3.43,53,8,9,7,AI/ML,AI Engineer
+3.97,84,9,9,1,Data Science,Data Scientist
+3.45,66,3,7,6,Business Analyst,Business Analyst
+2.89,83,3,7,3,Software Engineering,Software Developer
+3.45,73,4,3,8,Cyber Security,Cyber Security Analyst
+3.31,81,5,2,6,Web Development,Web Developer
+3.67,50,1,7,2,Data Science,Data Scientist
+2.66,57,7,9,8,AI/ML,AI Engineer
+3.64,94,9,1,5,Software Engineering,Software Developer
+3.31,72,8,4,8,UI/UX Design,UI/UX Designer
+3.94,96,5,6,8,UI/UX Design,UI/UX Designer
+3.01,89,4,7,6,Business Analyst,Business Analyst
+3.45,61,7,7,2,Business Analyst,Business Analyst
+3.9,61,5,2,8,Data Science,Data Scientist
+2.65,95,7,4,6,Cyber Security,Cyber Security Analyst
+3.91,96,1,5,6,AI/ML,AI Engineer
+3.53,64,1,1,8,Data Science,Data Scientist
+2.6,90,3,1,1,Cyber Security,Cyber Security Analyst
+2.95,68,2,3,2,Software Engineering,Software Developer
+3.56,75,2,3,9,Business Analyst,Business Analyst
+2.6,78,7,8,8,UI/UX Design,UI/UX Designer
+3.37,71,2,9,7,Web Development,Web Developer
+3.02,89,4,1,7,Software Engineering,Software Developer
+3.43,70,2,2,5,UI/UX Design,UI/UX Designer
+2.57,87,6,2,2,AI/ML,AI Engineer
+3.81,69,8,4,6,AI/ML,AI Engineer
+3.96,78,4,2,3,UI/UX Design,UI/UX Designer
+3.95,53,5,7,4,Software Engineering,Software Developer
+3.62,56,4,9,2,UI/UX Design,UI/UX Designer
+2.7,77,3,7,2,Cyber Security,Cyber Security Analyst
+3.64,77,5,6,8,Data Science,Data Scientist
+2.54,53,9,1,8,Business Analyst,Business Analyst
+2.53,71,8,9,6,Cyber Security,Cyber Security Analyst
+2.99,61,8,5,5,Web Development,Web Developer
+3.23,94,8,5,8,UI/UX Design,UI/UX Designer
+3.66,52,8,6,4,Web Development,Web Developer
+3.52,71,7,9,4,Web Development,Web Developer
+3.17,93,8,8,5,Cyber Security,Cyber Security Analyst
+2.91,51,8,8,1,Business Analyst,Business Analyst
+4.0,73,8,8,1,Software Engineering,Software Developer
+3.14,83,7,1,2,AI/ML,AI Engineer
+3.18,76,1,1,8,Data Science,Data Scientist
+2.75,90,4,8,7,AI/ML,AI Engineer
+3.69,50,4,5,9,Business Analyst,Business Analyst
+3.54,57,5,9,5,AI/ML,AI Engineer
+2.83,72,6,2,2,UI/UX Design,UI/UX Designer
+2.62,87,4,9,7,UI/UX Design,UI/UX Designer
+3.52,55,2,8,8,Cyber Security,Cyber Security Analyst
+3.48,71,6,9,7,Web Development,Web Developer
+2.91,74,8,4,7,Business Analyst,Business Analyst
+3.93,67,8,1,5,Business Analyst,Business Analyst
+2.73,66,7,1,2,AI/ML,AI Engineer
+3.15,61,6,5,6,Cyber Security,Cyber Security Analyst
+3.92,55,2,2,4,AI/ML,AI Engineer
+3.13,75,7,8,2,AI/ML,AI Engineer
+3.46,76,5,5,9,Business Analyst,Business Analyst
+3.1,57,6,5,7,AI/ML,AI Engineer
+2.91,68,8,2,6,Web Development,Web Developer
+3.98,91,8,7,5,AI/ML,AI Engineer
+3.11,50,3,8,3,Web Development,Web Developer
+3.84,78,7,1,4,Business Analyst,Business Analyst
+2.84,94,1,2,3,Cyber Security,Cyber Security Analyst
+2.82,98,1,4,8,UI/UX Design,UI/UX Designer
+2.55,84,7,5,3,Web Development,Web Developer
+3.48,89,9,2,7,Cyber Security,Cyber Security Analyst
+3.05,63,7,1,7,Cyber Security,Cyber Security Analyst
+3.8,84,5,9,7,Web Development,Web Developer
+3.21,97,8,1,7,Business Analyst,Business Analyst
+3.95,94,2,4,2,Data Science,Data Scientist
+2.78,69,9,2,3,Cyber Security,Cyber Security Analyst
+3.8,98,6,4,9,Cyber Security,Cyber Security Analyst
+3.66,62,9,8,3,Business Analyst,Business Analyst
+3.66,87,2,8,2,Business Analyst,Business Analyst
+3.77,98,3,9,9,AI/ML,AI Engineer
+3.64,95,8,5,9,Business Analyst,Business Analyst
+3.44,98,1,7,4,Cyber Security,Cyber Security Analyst
+2.7,57,7,3,9,Web Development,Web Developer
+2.55,92,7,4,3,Data Science,Data Scientist
+3.88,69,1,9,7,Software Engineering,Software Developer
+3.42,82,9,1,7,AI/ML,AI Engineer
+3.69,75,8,2,8,Software Engineering,Software Developer
+3.22,88,4,5,4,Web Development,Web Developer
+2.68,70,5,3,3,Data Science,Data Scientist
+2.69,98,2,2,3,Data Science,Data Scientist
+3.53,91,9,1,5,Data Science,Data Scientist
+3.15,92,6,3,1,UI/UX Design,UI/UX Designer
+2.8,90,3,1,3,Web Development,Web Developer
+3.24,58,7,1,6,AI/ML,AI Engineer
+2.6,73,9,1,3,AI/ML,AI Engineer
+3.37,86,3,8,5,Data Science,Data Scientist
+2.9,98,2,3,9,Web Development,Web Developer
+3.7,90,7,1,2,UI/UX Design,UI/UX Designer
+2.97,66,7,7,2,Data Science,Data Scientist
+3.18,73,4,3,6,Business Analyst,Business Analyst
+2.52,70,9,8,6,Software Engineering,Software Developer
+2.61,88,8,4,8,AI/ML,AI Engineer
+3.09,90,1,4,2,Software Engineering,Software Developer
+3.22,88,1,5,9,Cyber Security,Cyber Security Analyst
+3.4,62,5,6,2,Data Science,Data Scientist
+2.94,60,6,7,1,Business Analyst,Business Analyst
+3.54,95,3,4,2,AI/ML,AI Engineer
+3.79,68,9,8,7,Software Engineering,Software Developer
+3.67,60,6,6,8,UI/UX Design,UI/UX Designer
+2.56,62,4,1,5,Web Development,Web Developer
+3.22,95,7,1,6,AI/ML,AI Engineer
+2.66,94,8,9,1,Software Engineering,Software Developer
+2.86,50,9,6,6,Web Development,Web Developer
+3.98,89,6,8,8,Software Engineering,Software Developer
+2.71,93,6,7,3,Web Development,Web Developer
+3.25,68,8,6,1,UI/UX Design,UI/UX Designer
+3.43,61,5,4,4,UI/UX Design,UI/UX Designer
+3.55,57,3,7,1,Data Science,Data Scientist
+3.34,57,3,9,8,Data Science,Data Scientist
+2.51,94,6,7,5,AI/ML,AI Engineer
+2.99,61,2,1,1,UI/UX Design,UI/UX Designer
+3.28,97,6,9,8,Business Analyst,Business Analyst
+2.63,82,6,4,9,Software Engineering,Software Developer
+3.03,94,8,3,2,Software Engineering,Software Developer
+2.55,75,7,4,9,Software Engineering,Software Developer
+2.62,88,8,4,8,AI/ML,AI Engineer
+3.1,77,9,2,7,Software Engineering,Software Developer
+2.7,54,6,1,3,Cyber Security,Cyber Security Analyst
+3.35,57,3,1,2,Web Development,Web Developer
+3.53,74,3,8,7,Software Engineering,Software Developer
+3.7,76,1,2,5,Web Development,Web Developer
+2.8,95,5,5,6,Data Science,Data Scientist
+2.75,72,4,4,4,Software Engineering,Software Developer
+2.66,79,9,8,2,Business Analyst,Business Analyst
+3.45,94,9,2,9,UI/UX Design,UI/UX Designer
+3.56,96,5,9,3,UI/UX Design,UI/UX Designer
+2.55,72,4,7,7,Data Science,Data Scientist
+3.9,98,7,7,8,Cyber Security,Cyber Security Analyst
+2.58,96,6,1,2,AI/ML,AI Engineer
+3.31,69,4,2,6,AI/ML,AI Engineer
+3.56,67,2,4,8,Business Analyst,Business Analyst
+3.81,67,1,4,7,Data Science,Data Scientist
+3.57,51,4,3,3,Data Science,Data Scientist
+3.7,53,4,7,1,Cyber Security,Cyber Security Analyst
+3.01,79,1,8,6,Software Engineering,Software Developer
+3.72,82,6,2,8,AI/ML,AI Engineer
+2.62,85,4,4,6,Software Engineering,Software Developer
+3.84,67,1,3,5,Data Science,Data Scientist
+3.32,86,1,2,8,Software Engineering,Software Developer
+3.73,68,1,6,2,UI/UX Design,UI/UX Designer
+3.18,96,8,4,1,Business Analyst,Business Analyst
+3.47,77,8,6,1,AI/ML,AI Engineer
+3.29,89,2,2,4,Cyber Security,Cyber Security Analyst
+3.6,69,7,4,6,Business Analyst,Business Analyst
+2.62,98,8,6,9,Web Development,Web Developer
+2.59,82,8,5,1,UI/UX Design,UI/UX Designer
+2.87,61,7,3,1,Cyber Security,Cyber Security Analyst
+2.74,64,5,8,5,Business Analyst,Business Analyst
+3.81,90,1,7,5,Data Science,Data Scientist
+2.83,88,9,3,5,Web Development,Web Developer
+3.96,51,7,6,6,Cyber Security,Cyber Security Analyst
+3.01,78,2,4,8,Data Science,Data Scientist
+2.77,90,6,5,3,UI/UX Design,UI/UX Designer
+3.68,59,2,5,9,Web Development,Web Developer
+3.49,51,1,7,1,AI/ML,AI Engineer
+3.25,60,7,5,4,Data Science,Data Scientist
+3.33,62,2,3,9,Business Analyst,Business Analyst
+3.58,59,2,5,8,Software Engineering,Software Developer
+2.84,63,5,7,9,Cyber Security,Cyber Security Analyst
+3.99,67,5,5,1,Web Development,Web Developer
+3.96,58,7,5,9,Data Science,Data Scientist
+3.48,88,1,9,3,AI/ML,AI Engineer
+2.8,77,8,3,9,Software Engineering,Software Developer
+3.52,52,3,6,1,Cyber Security,Cyber Security Analyst
+2.61,69,4,1,1,Cyber Security,Cyber Security Analyst
+2.55,55,9,5,9,Data Science,Data Scientist
+2.89,76,4,8,6,AI/ML,AI Engineer
+3.19,51,5,5,4,UI/UX Design,UI/UX Designer
+3.8,78,7,9,7,Software Engineering,Software Developer
+3.59,87,4,6,5,UI/UX Design,UI/UX Designer
+3.61,52,1,8,7,Web Development,Web Developer
+3.14,65,9,8,8,Data Science,Data Scientist
+3.02,79,4,3,8,Software Engineering,Software Developer
+3.06,89,9,7,1,Web Development,Web Developer
+3.98,51,6,7,8,UI/UX Design,UI/UX Designer
+2.56,66,1,6,6,Software Engineering,Software Developer
+3.8,90,3,7,4,Cyber Security,Cyber Security Analyst
+3.37,61,2,2,8,Web Development,Web Developer
+3.16,84,9,9,3,AI/ML,AI Engineer
+3.59,92,1,1,4,Business Analyst,Business Analyst
+3.23,50,9,1,6,UI/UX Design,UI/UX Designer
+3.81,94,9,3,7,UI/UX Design,UI/UX Designer
+3.85,64,8,3,4,AI/ML,AI Engineer
+3.13,75,8,1,4,Software Engineering,Software Developer
+2.92,86,1,7,7,Software Engineering,Software Developer
+3.39,70,8,4,6,Software Engineering,Software Developer
+3.87,98,3,2,8,Web Development,Web Developer
+2.82,80,7,5,1,Data Science,Data Scientist
+3.43,74,1,6,7,Cyber Security,Cyber Security Analyst
+3.45,72,1,9,7,Business Analyst,Business Analyst
+3.6,73,5,4,7,Data Science,Data Scientist
+2.7,87,5,2,7,Data Science,Data Scientist
+3.57,77,8,5,8,AI/ML,AI Engineer
+3.86,70,7,3,9,Web Development,Web Developer
+2.77,92,8,2,9,UI/UX Design,UI/UX Designer
+2.86,67,6,1,2,UI/UX Design,UI/UX Designer
+3.96,85,6,2,7,AI/ML,AI Engineer
+2.77,84,2,6,7,Web Development,Web Developer
+3.78,94,6,8,4,AI/ML,AI Engineer
+3.24,58,5,3,9,UI/UX Design,UI/UX Designer
+2.87,87,3,9,8,Data Science,Data Scientist
+3.81,79,6,9,1,Cyber Security,Cyber Security Analyst
+3.17,93,8,2,2,Software Engineering,Software Developer
+3.27,83,9,8,2,Web Development,Web Developer
+3.04,81,1,5,8,Business Analyst,Business Analyst
+3.39,52,3,4,1,Business Analyst,Business Analyst
+2.75,52,3,5,4,Data Science,Data Scientist
+3.09,77,8,4,5,AI/ML,AI Engineer
+3.95,93,1,8,9,AI/ML,AI Engineer
+2.89,64,5,4,7,UI/UX Design,UI/UX Designer
+3.49,90,3,6,8,Data Science,Data Scientist
+2.99,72,2,2,9,UI/UX Design,UI/UX Designer
+3.66,89,8,5,7,UI/UX Design,UI/UX Designer
+2.7,60,3,6,5,Business Analyst,Business Analyst
+3.95,97,7,5,5,UI/UX Design,UI/UX Designer
+3.18,81,1,2,6,Software Engineering,Software Developer
+2.85,85,6,7,5,UI/UX Design,UI/UX Designer
+2.61,82,3,4,9,Business Analyst,Business Analyst
+2.75,73,8,8,3,Software Engineering,Software Developer
+3.28,88,6,7,3,AI/ML,AI Engineer
+3.01,83,2,7,7,Web Development,Web Developer
+3.74,77,6,9,7,Cyber Security,Cyber Security Analyst
+3.15,86,7,1,6,UI/UX Design,UI/UX Designer
+2.87,56,5,6,3,Software Engineering,Software Developer
+3.43,53,3,6,7,Web Development,Web Developer
+3.56,86,4,6,5,Business Analyst,Business Analyst
+2.75,50,4,6,7,Web Development,Web Developer
+2.75,50,6,7,2,Cyber Security,Cyber Security Analyst
+2.56,96,1,6,6,Web Development,Web Developer
+3.6,69,4,1,8,Software Engineering,Software Developer
+3.5,68,4,3,1,Web Development,Web Developer
+3.21,78,1,2,4,Web Development,Web Developer
+3.77,59,9,6,1,Web Development,Web Developer
+3.71,67,4,8,1,Data Science,Data Scientist
+3.38,77,7,3,8,UI/UX Design,UI/UX Designer
+3.8,84,3,8,7,Business Analyst,Business Analyst
+2.81,92,3,8,1,Cyber Security,Cyber Security Analyst
+2.67,96,8,5,2,Business Analyst,Business Analyst
+2.9,80,8,8,4,Data Science,Data Scientist
+2.59,76,1,6,1,Data Science,Data Scientist
+3.3,60,2,5,3,Software Engineering,Software Developer
+3.9,98,8,9,8,Data Science,Data Scientist
+2.56,98,1,7,8,UI/UX Design,UI/UX Designer
+2.68,87,8,8,8,Data Science,Data Scientist
+3.18,54,8,1,6,Web Development,Web Developer
+3.9,57,2,2,6,Business Analyst,Business Analyst
+2.97,83,4,8,5,AI/ML,AI Engineer
+3.26,97,6,9,9,Cyber Security,Cyber Security Analyst
+2.56,61,9,4,4,Data Science,Data Scientist
+2.72,87,8,9,7,Business Analyst,Business Analyst
+3.98,50,8,4,1,Software Engineering,Software Developer
+3.95,80,7,9,9,Data Science,Data Scientist
+2.51,53,9,7,7,UI/UX Design,UI/UX Designer
+3.93,98,2,2,9,Data Science,Data Scientist
+3.46,94,3,9,7,Data Science,Data Scientist
+3.8,99,8,4,2,Data Science,Data Scientist
+3.18,54,6,8,6,Software Engineering,Software Developer
+3.27,79,9,7,4,Data Science,Data Scientist
+3.23,73,4,7,3,Cyber Security,Cyber Security Analyst
+3.5,52,8,8,2,Business Analyst,Business Analyst
+2.71,60,3,1,6,UI/UX Design,UI/UX Designer
+2.54,94,3,5,8,Data Science,Data Scientist
+2.96,53,8,2,6,Data Science,Data Scientist
+3.56,75,5,2,9,Data Science,Data Scientist
+2.8,76,3,1,5,Data Science,Data Scientist
+3.51,95,1,5,2,Web Development,Web Developer
+3.95,92,3,2,8,Web Development,Web Developer
+2.64,76,9,4,9,AI/ML,AI Engineer
+3.51,91,5,3,4,Data Science,Data Scientist
+3.17,99,2,3,6,AI/ML,AI Engineer
+3.8,55,7,2,8,Cyber Security,Cyber Security Analyst
+2.77,64,2,6,9,AI/ML,AI Engineer
+3.54,79,4,2,5,Business Analyst,Business Analyst
+3.76,91,7,8,6,Web Development,Web Developer
+3.92,86,4,8,4,Web Development,Web Developer
+3.52,86,7,5,5,Data Science,Data Scientist
+3.25,91,7,7,7,Data Science,Data Scientist
+3.43,86,1,4,9,Cyber Security,Cyber Security Analyst
+3.8,84,6,1,6,UI/UX Design,UI/UX Designer
+3.36,72,9,2,6,Cyber Security,Cyber Security Analyst
+2.55,55,2,4,8,Business Analyst,Business Analyst
+3.9,53,3,1,4,Data Science,Data Scientist
+3.53,67,5,8,3,Data Science,Data Scientist
+3.51,58,9,9,7,Cyber Security,Cyber Security Analyst
+2.82,98,4,4,5,Cyber Security,Cyber Security Analyst
+3.49,78,1,3,2,Cyber Security,Cyber Security Analyst
+3.09,62,4,2,2,Web Development,Web Developer
+3.48,96,6,5,6,AI/ML,AI Engineer
+2.66,66,5,3,8,AI/ML,AI Engineer
+3.49,94,1,7,1,Data Science,Data Scientist
+4.0,81,4,6,6,Web Development,Web Developer
+2.57,97,6,1,2,Cyber Security,Cyber Security Analyst
+3.97,71,4,8,2,Data Science,Data Scientist
+3.11,53,9,2,7,Web Development,Web Developer
+3.81,54,5,5,1,Business Analyst,Business Analyst
+3.67,86,8,9,6,UI/UX Design,UI/UX Designer
+3.35,90,9,8,7,Web Development,Web Developer
+3.61,98,5,2,8,Software Engineering,Software Developer
+3.82,62,6,9,7,Data Science,Data Scientist
+3.11,83,1,5,6,AI/ML,AI Engineer
+2.99,94,7,6,9,Software Engineering,Software Developer
+3.5,71,4,3,3,Cyber Security,Cyber Security Analyst
+3.71,72,2,3,6,UI/UX Design,UI/UX Designer
+3.64,52,5,8,4,Business Analyst,Business Analyst
+3.7,91,3,2,2,UI/UX Design,UI/UX Designer
+3.15,83,6,2,1,UI/UX Design,UI/UX Designer
+3.73,81,8,5,1,Web Development,Web Developer
+2.68,94,7,6,3,Data Science,Data Scientist
+3.32,98,3,2,4,Data Science,Data Scientist
+2.51,70,8,5,2,UI/UX Design,UI/UX Designer
+2.99,95,2,7,1,Cyber Security,Cyber Security Analyst
+3.05,93,9,8,4,Data Science,Data Scientist
+3.09,70,4,7,7,UI/UX Design,UI/UX Designer
+3.54,93,1,8,6,Data Science,Data Scientist
+3.08,60,8,9,6,Cyber Security,Cyber Security Analyst
+3.17,88,7,5,9,Business Analyst,Business Analyst
+2.86,53,5,5,2,Software Engineering,Software Developer
+3.06,50,5,4,4,UI/UX Design,UI/UX Designer
+2.84,77,7,9,5,AI/ML,AI Engineer
+2.61,73,5,5,1,AI/ML,AI Engineer
+3.41,84,8,2,8,UI/UX Design,UI/UX Designer
+3.5,62,6,8,8,Web Development,Web Developer
+3.43,96,5,7,6,Business Analyst,Business Analyst
+3.2,83,9,8,5,Web Development,Web Developer
+3.07,60,2,3,8,Software Engineering,Software Developer
+3.8,85,1,4,3,AI/ML,AI Engineer

@@ -1,0 +1,17 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-JWT-Extended
+scikit-learn
+pandas
+numpy
+matplotlib
+joblib
+seaborn
+reportlab
+shap
+spacy
+nltk
+PyPDF2
+vaderSentiment
+python-dotenv

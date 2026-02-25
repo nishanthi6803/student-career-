@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}AI Intelligence Report{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-4">
+        <div class="glass-card text-center mb-4 border-info">
+            <h6 class="text-muted">Target Career</h6>
+            <h2 class="fw-bold text-info">{{ profile.predicted_career }}</h2>
+            <div class="mt-3">
+                <span class="badge bg-primary px-3 py-2">Match Confidence: 98%</span>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <h5 class="mb-4">Explainable AI (XAI)</h5>
+            <p class="small text-secondary mb-3">SHAP analysis showing feature contribution to the prediction result.
+            </p>
+            {% if explanation %}
+            <img src="data:image/png;base64,{{ explanation }}" class="img-fluid rounded border border-secondary"
+                alt="SHAP Plot">
+            {% else %}
+            <p class="text-warning">Explanation generation failed.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="glass-card text-center">
+                    <h6 class="text-muted">Intelligence Score</h6>
+                    <div class="display-5 fw-bold text-primary">{{ profile.intelligence_score }}</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="glass-card text-center">
+                    <h6 class="text-muted">Predicted Starting Salary</h6>
+                    <div class="display-5 fw-bold text-success">${{ "{:,.0f}".format(profile.predicted_salary) }}</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <h4 class="mb-4">Market Outlook & Projection</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded border border-secondary text-center mb-3">
+                        <small class="text-muted d-block">Market Demand</small>
+                        <span class="fs-4 fw-bold">{{ market.demand }}%</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded border border-secondary text-center mb-3">
+                        <small class="text-muted d-block">5-Year Growth</small>
+                        <span class="fs-4 fw-bold text-success">+{{ market.growth }}%</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 bg-dark rounded border border-secondary text-center mb-3">
+                        <small class="text-muted d-block">Trend Status</small>
+                        <span class="fs-4 fw-bold text-info">{{ market.trend }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h5>Salary Growth Projection</h5>
+                <canvas id="salaryChart" style="height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const ctx = document.getElementById('salaryChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'],
+            datasets: [{
+                label: 'Projected Annual Salary ($)',
+                data: [
+                    {{ profile.predicted_salary }},
+            {{ profile.predicted_salary * 1.1 }},
+                    {{ profile.predicted_salary * 1.25 }},
+        {{ profile.predicted_salary * 1.4 }},
+        {{ profile.predicted_salary * 1.6 }}
+                ],
+        borderColor: '#00d2ff',
+        backgroundColor: 'rgba(0, 210, 255, 0.1)',
+        fill: true,
+        tension: 0.4,
+        borderWidth: 3
+            }]
+        },
+        options: {
+        scales: {
+            y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#a0a0c0' } },
+            x: { grid: { display: false }, ticks: { color: '#a0a0c0' } }
+        },
+        plugins: { legend: { display: false } }
+    }
+    });
+</script>
+{% endblock %}

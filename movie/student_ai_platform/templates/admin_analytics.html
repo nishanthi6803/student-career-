@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Platform Analytics{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-3">
+        <div class="glass-card text-center mb-4 border-primary">
+            <h6 class="text-muted">Total Students</h6>
+            <div class="display-5 fw-bold">{{ total_students }}</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="glass-card text-center mb-4 border-info">
+            <h6 class="text-muted">Avg. Intelligence</h6>
+            <div class="display-5 fw-bold">{{ avg_intel }}</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="glass-card text-center mb-4 border-success">
+            <h6 class="text-muted">Top Prediction</h6>
+            <div class="fs-4 fw-bold text-truncate">{{ top_career }}</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="glass-card text-center mb-4 border-warning">
+            <h6 class="text-muted">Model Accuracy</h6>
+            <div class="display-5 fw-bold">{{ model_info.accuracy if model_info else 'N/A' }}</div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="glass-card">
+            <h4 class="mb-4">Career Distribution Heatmap</h4>
+            <div style="height: 400px;">
+                <canvas id="careerChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="glass-card">
+            <h4 class="mb-4">Employability Risks</h4>
+            <div class="alert alert-dark border-warning mb-3">
+                <small class="text-warning fw-bold d-block">Low Skill Match detected</small>
+                <p class="mb-0 small">15% of students have an ATS score below 40%.</p>
+            </div>
+            <div class="alert alert-dark border-info mb-3">
+                <small class="text-info fw-bold d-block">Market Growth Sync</small>
+                <p class="mb-0 small">85% predictions align with growing sectors.</p>
+            </div>
+            <div class="mt-4">
+                <button class="btn btn-outline-info w-100 mb-2">Download Global Dataset</button>
+                <button class="btn btn-ai w-100">Trigger Model Re-training</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const ctx = document.getElementById('careerChart').getContext('2d');
+    const careerData = {{ career_counts | tojson }};
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(careerData),
+            datasets: [{
+                label: 'Student Predictions',
+                data: Object.values(careerData),
+                backgroundColor: 'rgba(138, 43, 226, 0.5)',
+                borderColor: '#8a2be2',
+                borderWidth: 2,
+                borderRadius: 8
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#a0a0c0' } },
+                y: { grid: { display: false }, ticks: { color: '#a0a0c0' } }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+</script>
+{% endblock %}

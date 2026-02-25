@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}AI Interview Simulator{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        {% if not question and not evaluation %}
+        <div class="glass-card text-center py-5">
+            <i class="fas fa-comments-dollar fa-4x text-info mb-3"></i>
+            <h3>Mock Interview Session</h3>
+            <p class="text-muted mb-4">Practice your interview skills for <strong>{{ profile.predicted_career
+                    }}</strong> roles. The AI will generate a question and evaluate your response.</p>
+            <form action="{{ url_for('student.interview') }}" method="POST">
+                <button type="submit" name="start" class="btn btn-ai btn-lg px-5">Start Simulation</button>
+            </form>
+        </div>
+        {% elif question %}
+        <div class="glass-card">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h4 class="text-info">Question</h4>
+                <span class="badge bg-secondary">Career Context: {{ profile.predicted_career }}</span>
+            </div>
+            <p class="fs-5 fw-bold bg-dark p-4 rounded border border-info">{{ question }}</p>
+
+            <form action="{{ url_for('student.interview') }}" method="POST" class="mt-4">
+                <input type="hidden" name="question" value="{{ question }}">
+                <div class="mb-3">
+                    <label>Your Answer</label>
+                    <textarea name="answer" class="form-control" rows="6"
+                        placeholder="Type your professional response here..." required></textarea>
+                </div>
+                <button type="submit" name="submit_answer" class="btn btn-ai w-100">Submit for AI Review</button>
+            </form>
+        </div>
+        {% elif evaluation %}
+        <div class="glass-card">
+            <h4 class="mb-4"><i class="fas fa-square-poll-vertical me-2 text-primary"></i>Interview Feedback</h4>
+
+            <div class="row text-center mb-4">
+                <div class="col-md-6 border-end border-secondary">
+                    <h6 class="text-muted">AI Performance Score</h6>
+                    <div class="display-5 fw-bold text-info">{{ evaluation.score }}/100</div>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-muted">Word Count</h6>
+                    <div class="display-5 fw-bold text-secondary">{{ evaluation.word_count }}</div>
+                </div>
+            </div>
+
+            <div class="p-4 bg-dark rounded border border-primary mb-4">
+                <h6 class="text-primary mb-2">Technical & Communication Feedback</h6>
+                <p class="mb-0">{{ evaluation.feedback }}</p>
+            </div>
+
+            <div class="text-center">
+                <form action="{{ url_for('student.interview') }}" method="POST">
+                    <button type="submit" name="start" class="btn btn-outline-light">Try Another Question</button>
+                    <a href="{{ url_for('student.dashboard') }}" class="btn btn-ai ms-2">Back to Dashboard</a>
+                </form>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

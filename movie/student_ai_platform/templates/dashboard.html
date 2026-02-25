@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Career Dashboard{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8">
+        <div class="glass-card">
+            <h4 class="mb-4"><i class="fas fa-id-card-clip me-2 text-primary"></i>Career Profiling</h4>
+            <form action="{{ url_for('student.predict') }}" method="POST">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control"
+                            value="{{ profile.name if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>CGPA</label>
+                        <input type="number" step="0.01" max="4.0" name="cgpa" class="form-control"
+                            value="{{ profile.cgpa if profile else '' }}" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Aptitude Score (1-100)</label>
+                        <input type="number" name="aptitude" class="form-control"
+                            value="{{ profile.aptitude_score if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Interest Domain</label>
+                        <select name="interest" class="form-control" required>
+                            <option value="AI/ML" {{ 'selected' if profile and profile.interest_area=='AI/ML' else ''
+                                }}>AI/ML</option>
+                            <option value="Data Science" {{ 'selected' if profile and
+                                profile.interest_area=='Data Science' else '' }}>Data Science</option>
+                            <option value="Web Development" {{ 'selected' if profile and
+                                profile.interest_area=='Web Development' else '' }}>Web Development</option>
+                            <option value="UI/UX Design" {{ 'selected' if profile and
+                                profile.interest_area=='UI/UX Design' else '' }}>UI/UX Design</option>
+                            <option value="Cyber Security" {{ 'selected' if profile and
+                                profile.interest_area=='Cyber Security' else '' }}>Cyber Security</option>
+                            <option value="Business Analyst" {{ 'selected' if profile and
+                                profile.interest_area=='Business Analyst' else '' }}>Business Analyst</option>
+                            <option value="Software Engineering" {{ 'selected' if profile and
+                                profile.interest_area=='Software Engineering' else '' }}>Software Engineering</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p class="text-secondary small fw-bold mb-2">Technical & Soft Skills (1-10)</p>
+                    <div class="col-md-4 mb-3">
+                        <label>Coding</label>
+                        <input type="number" min="1" max="10" name="coding" class="form-control"
+                            value="{{ profile.coding_skill if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Communication</label>
+                        <input type="number" min="1" max="10" name="communication" class="form-control"
+                            value="{{ profile.communication_skill if profile else '' }}" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Leadership</label>
+                        <input type="number" min="1" max="10" name="leadership" class="form-control"
+                            value="{{ profile.leadership_score if profile else '' }}" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-ai w-100 mt-3">Run AI Career Prediction</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="glass-card text-center">
+            <h5 class="text-muted mb-3">Employability Score</h5>
+            <div class="display-4 fw-bold text-info mb-1">{{ profile.career_readiness_score if profile else '--' }}%
+            </div>
+            <p class="small text-secondary">Based on current technical profile</p>
+            <canvas id="readinessChart" style="max-height: 120px;"></canvas>
+        </div>
+
+        <div class="glass-card">
+            <h5 class="mb-3">Market Trends</h5>
+            {% for career, info in market_data.items() %}
+            <div class="mb-2 d-flex justify-content-between align-items-center">
+                <small>{{ career }}</small>
+                <span class="badge {{ 'bg-success' if info.demand > 90 else 'bg-info' }}">{{ info.trend }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    {% if profile %}
+    const ctx = document.getElementById('readinessChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [{{ profile.career_readiness_score }}, {{ 100 - profile.career_readiness_score }}],
+        backgroundColor: ['#00d2ff', 'rgba(255,255,255,0.05)'],
+        borderWidth: 0,
+        circumference: 180,
+        rotation: 270,
+    }]
+        },
+        options: { cutout: '80%', plugins: { legend: { display: false } } }
+    });
+    {% endif %}
+</script>
+{% endblock %}

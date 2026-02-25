@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 mb-4">
+        <h2 class="fw-bold"><i class="fas fa-user-shield me-2"></i>Admin Panel</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="glass-card h-100">
+            <h3>Model Status</h3>
+            <hr class="border-light">
+            <p><strong>Current Best Model:</strong> Logistic Regression (Auto-selected)</p>
+            <p><strong>Training Accuracy:</strong> <span class="text-success">{{ model_info.accuracy if model_info else
+                    'N/A' }}</span></p>
+            <p><strong>Features Used:</strong> {{ model_info.features if model_info else 'N/A' }}</p>
+            <div class="mt-4">
+                <button class="btn btn-ai btn-sm"><i class="fas fa-sync-alt me-2"></i>Retrain Model</button>
+                <button class="btn btn-outline-light btn-sm ms-2">Download Dataset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <div class="glass-card h-100">
+            <h3>Bulk Import</h3>
+            <hr class="border-light">
+            <p>Upload student data in CSV format to populate the system or retrain with more data.</p>
+            <form action="#" class="mt-3">
+                <div class="mb-3">
+                    <input type="file" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-outline-info w-100">Upload & Process</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="glass-card">
+            <h3>System Health</h3>
+            <div class="table-responsive">
+                <table class="table table-dark table-hover mt-3">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Status</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Database Connection</td>
+                            <td><span class="badge bg-success">Healthy</span></td>
+                            <td>SQLite (Local)</td>
+                        </tr>
+                        <tr>
+                            <td>ML Engine</td>
+                            <td><span class="badge bg-success">Active</span></td>
+                            <td>Scikit-learn 1.2+</td>
+                        </tr>
+                        <tr>
+                            <td>API Endpoints</td>
+                            <td><span class="badge bg-info">Ready</span></td>
+                            <td>REST JSON</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Resume & ATS Analyzer{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-5">
+        <div class="glass-card">
+            <h4><i class="fas fa-file-arrow-up me-2 text-info"></i>Upload Resume</h4>
+            <p class="small text-muted mb-4">Upload your PDF resume to check alignment with <strong>{{
+                    profile.predicted_career }}</strong> requirements.</p>
+            <form action="{{ url_for('student.resume_analysis') }}" method="POST" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <input type="file" name="resume" class="form-control" accept=".pdf" required>
+                </div>
+                <button type="submit" class="btn btn-ai w-100">Analyze with NLP</button>
+            </form>
+        </div>
+
+        {% if profile.ats_score %}
+        <div class="glass-card text-center border-info">
+            <h6 class="text-muted">Current ATS Score</h6>
+            <div class="display-4 fw-bold text-info">{{ profile.ats_score }}%</div>
+            <div class="progress mt-3" style="height: 8px;">
+                <div class="progress-bar bg-info" style="width: {{ profile.ats_score }}%"></div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col-lg-7">
+        {% if result %}
+        <div class="glass-card">
+            <h4><i class="fas fa-magnifying-glass-chart me-2 text-primary"></i>Analysis Results</h4>
+            <hr class="border-secondary">
+
+            <div class="mb-4">
+                <h6 class="text-success fw-bold"><i class="fas fa-check-circle me-2"></i>Skills Found</h6>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                    {% for skill in result.found_skills %}
+                    <span class="badge bg-dark border border-success">{{ skill | capitalize }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <h6 class="text-warning fw-bold"><i class="fas fa-triangle-exclamation me-2"></i>Skill Gaps Detected
+                </h6>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                    {% for skill in result.missing_skills %}
+                    <span class="badge bg-dark border border-warning">{{ skill | capitalize }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="mt-4 p-3 bg-dark rounded border border-primary">
+                <h6>AI Recommendation</h6>
+                <p class="small text-info mb-0">To increase your ATS score to 90+, prioritize mastering: <strong>{{
+                        result.missing_skills[0] if result.missing_skills else 'Advanced Soft Skills' }}</strong>.</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="glass-card text-center py-5">
+            <i class="fas fa-file-circle-question fa-4x text-muted mb-3"></i>
+            <h5>Waiting for Upload</h5>
+            <p class="text-muted">Upload your resume to see the NLP skills analysis and ATS comparison.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

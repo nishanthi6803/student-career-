@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Join CareerAI Platform{% endblock %}
+
+{% block content %}
+<style>
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    header {
+        display: none;
+    }
+</style>
+
+<div class="row justify-content-center w-100">
+    <div class="col-md-5">
+        <div class="glass-card py-5 px-4 text-center">
+            <h1 class="sidebar-brand justify-content-center mb-4" style="font-size: 2.5rem;">
+                <i class="fas fa-microchip me-2"></i>CareerAI
+            </h1>
+            <h3 class="fw-bold mb-4">Create Account</h3>
+
+            <form method="POST">
+                <div class="mb-3 text-start">
+                    <label class="small text-muted mb-2">Username</label>
+                    <input type="text" name="username" class="form-control" required>
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="small text-muted mb-2">Email Address</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="small text-muted mb-2">Password</label>
+                    <input type="password" name="password" class="form-control" required>
+                </div>
+                <div class="mb-4 text-start">
+                    <label class="small text-muted mb-2">Account Role</label>
+                    <select name="role" class="form-select">
+                        <option value="student">Student</option>
+                        <option value="counselor">Career Counselor</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-ai w-100 py-2 mb-3">Join as Modular AI User</button>
+            </form>
+
+            <p class="text-muted small">
+                Already member? <a href="{{ url_for('auth.login') }}" class="text-info">Sign In</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Login to CareerAI{% endblock %}
+
+{% block content %}
+<style>
+    .sidebar {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    header {
+        display: none;
+    }
+</style>
+
+<div class="row justify-content-center w-100">
+    <div class="col-md-5">
+        <div class="glass-card py-5 px-4 text-center">
+            <h1 class="sidebar-brand justify-content-center mb-4" style="font-size: 2.5rem;">
+                <i class="fas fa-microchip me-2"></i>CareerAI
+            </h1>
+            <h3 class="fw-bold mb-4">Welcome Back</h3>
+
+            <form method="POST">
+                <div class="mb-3 text-start">
+                    <label class="small text-muted mb-2">Username</label>
+                    <input type="text" name="username" class="form-control" required>
+                </div>
+                <div class="mb-4 text-start">
+                    <label class="small text-muted mb-2">Password</label>
+                    <input type="password" name="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-ai w-100 py-2 mb-3">Sign In to Platform</button>
+            </form>
+
+            <p class="text-muted small">
+                Don't have an account? <a href="{{ url_for('auth.register') }}" class="text-info">Join the platform</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
